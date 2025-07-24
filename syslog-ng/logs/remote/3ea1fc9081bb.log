@@ -1,0 +1,5 @@
+Apr  8 09:36:44 3ea1fc9081bb rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start
+Apr  8 09:40:52 3ea1fc9081bb root: Hello  message - Tue Apr  8 03:10:52 PM IST 2025
+Apr  8 09:41:44 3ea1fc9081bb root: Test UDP message1
+Apr  8 09:49:50 3ea1fc9081bb root: Hello  message1 - Tue Apr  8 03:19:50 PM IST 2025
+Apr  8 10:02:14 3ea1fc9081bb rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="7" x-info="https://www.rsyslog.com"] start

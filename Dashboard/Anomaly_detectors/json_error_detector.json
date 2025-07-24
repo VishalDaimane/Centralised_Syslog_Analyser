@@ -1,0 +1,89 @@
+POST _plugins/_anomaly_detection/detectors
+{
+  "name": "json_error_detector",
+  "description": "Detects anomalies in log count that may indicate JSON errors",
+  "time_field": "@timestamp",
+  "indices": [
+    "syslog-*"
+  ],
+  "filter_query": {
+    "match_all": {}
+  },
+  "detection_interval": {
+    "period": {
+      "interval": 10,
+      "unit": "Minutes"
+    }
+  },
+  "window_delay": {
+    "period": {
+      "interval": 1,
+      "unit": "Minutes"
+    }
+  },
+  "shingle_size": 8,
+  "schema_version": 0,
+  "feature_attributes": [
+    {
+      "feature_name": "json_error_count",
+      "feature_enabled": true,
+      "aggregation_query": {
+        "json_error_count": {
+          "value_count": {
+            "field": "log.offset"
+          }
+        }
+      }
+    }
+  ],
+  "ui_metadata": {
+    "features": {
+      "json_error_count": {
+        "aggregationBy": "value_count",
+        "aggregationOf": "log.offset",
+        "featureType": "simple_aggs"
+      }
+    },
+    "filters": [],
+    "filterType": "match_all",
+    "shingleSize": 8,
+    "schemaVersion": 0,
+    "detectorDefinition": {
+      "name": "json_error_detector",
+      "description": "",
+      "timeField": "@timestamp",
+      "indices": [
+        "syslog-*"
+      ],
+      "filterQuery": {
+        "match_all": {}
+      },
+      "detectionInterval": {
+        "period": {
+          "interval": 10,
+          "unit": "Minutes"
+        }
+      },
+      "windowDelay": {
+        "period": {
+          "interval": 1,
+          "unit": "Minutes"
+        }
+      },
+      "shingleSize": 8,
+      "featureAttributes": [
+        {
+          "featureName": "json_error_count",
+          "featureEnabled": true,
+          "aggregationQuery": {
+            "json_error_count": {
+              "value_count": {
+                "field": "log.offset"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

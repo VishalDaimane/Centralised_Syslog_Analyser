@@ -1,0 +1,48 @@
+POST _plugins/_anomaly_detection/detectors
+{
+  "name": "auth_failure_detector",
+  "description": "Detects SSH authentication failures",
+  "time_field": "@timestamp",
+  "indices": [
+    "syslog-*"
+  ],
+  "filter_query": {
+    "bool": {
+      "filter": [
+        {
+          "query_string": {
+            "query": "*Failed password*",
+            "default_field": "message"
+          }
+        }
+      ]
+    }
+  },
+  "detection_interval": {
+    "period": {
+      "interval": 1,
+      "unit": "MINUTES"
+    }
+  },
+  "feature_attributes": [
+    {
+      "feature_name": "failed_password_count",
+      "feature_enabled": true,
+      "aggregation_query": {
+        "failed_password_count": {
+          "value_count": {
+            "field": "message.keyword"
+          }
+        }
+      }
+    }
+  ],
+  "window_delay": {
+    "period": {
+      "interval": 1,
+      "unit": "MINUTES"
+    }
+  },
+  "shingle_size": 1,
+  "schema_version": 1
+}

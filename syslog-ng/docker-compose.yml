@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  syslog-ng:
+    image: balabit/syslog-ng:latest
+    container_name: syslog-ng
+    restart: unless-stopped
+    ports:
+      - "514:514/tcp"
+      - "514:514/udp"
+    volumes:
+      - ./config/syslog-ng.conf:/etc/syslog-ng/syslog-ng.conf
+      - ./logs:/var/log
+      - ./shared-logs:/var/log/syslog-ng-for-filebeat  # Add this volume
+      - /var/lib/docker/containers:/var/lib/docker/containers:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+    privileged: true
+    cap_add:
+      - SYS_ADMIN
+      - DAC_READ_SEARCH
+      - SYS_PTRACE
+      - SETPCAP
+      - SYSLOG
+    networks:
+      - logging-network  # This now refers to a defined network
+    healthcheck:
+      test: ["CMD", "pidof", "syslog-ng"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  rsyslog-client:
+    build:
+      context: .
+      dockerfile: Dockerfile.client
+    container_name: rsyslog-client
+    depends_on:
+      syslog-ng:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - logging-network
+
+networks:
+  logging-network:
+    external: true
+    name: logging-network

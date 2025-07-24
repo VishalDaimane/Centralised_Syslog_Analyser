@@ -1,0 +1,2 @@
+Apr  7 20:14:22 1710e91ba97a root: Test UDP message
+Apr  7 20:14:22 1710e91ba97a rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2312.0 try https://www.rsyslog.com/e/2359 ]

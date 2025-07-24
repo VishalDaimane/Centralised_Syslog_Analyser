@@ -1,0 +1,4 @@
+Apr  7 05:03:51 c3cedbdd9511 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Apr  7 05:03:51 c3cedbdd9511 rsyslogd: activation of module imklog failed [v8.2312.0 try https://www.rsyslog.com/e/2145 ]
+Apr  7 05:03:51 c3cedbdd9511 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="3674" x-info="https://www.rsyslog.com"] start
+Apr  7 05:04:08 c3cedbdd9511 root: Test message from rsyslog-client

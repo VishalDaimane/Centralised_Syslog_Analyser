@@ -1,0 +1,52 @@
+POST _plugins/_anomaly_detection/detectors
+{
+  "name": "volume_spike_detector",
+  "description": "Detects spikes in the volume of syslog messages",
+  "time_field": "@timestamp",
+  "indices": [
+    "syslog-*"
+  ],
+  "filter_query": {
+    "match_all": {
+      "boost": 1
+    }
+  },
+  "detection_interval": {
+    "period": {
+      "interval": 1,
+      "unit": "Minutes"
+    }
+  },
+  "window_delay": {
+    "period": {
+      "interval": 1,
+      "unit": "Minutes"
+    }
+  },
+  "shingle_size": 8,
+  "schema_version": 0,
+  "feature_attributes": [
+    {
+      "feature_id": "ntkiBpcBxgFH05FD-fwd",
+      "feature_name": "log_volume",
+      "feature_enabled": true,
+      "aggregation_query": {
+        "log_volume": {
+          "value_count": {
+            "field": "log.offset"
+          }
+        }
+      }
+    }
+  ],
+  "ui_metadata": {
+    "features": {
+      "log_volume": {
+        "aggregationBy": "value_count",
+        "aggregationOf": "log.offset",
+        "featureType": "simple",
+        "enabled": true
+      }
+    }
+  }
+}

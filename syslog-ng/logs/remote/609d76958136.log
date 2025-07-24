@@ -1,0 +1,4 @@
+Apr  8 11:15:49 609d76958136 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start
+Apr  8 11:16:00 609d76958136 root: Hello  message3 - Tue Apr  8 04:46:00 PM IST 2025
+Apr  8 11:46:55 609d76958136 root: Hello  message4 - Tue Apr  8 05:16:55 PM IST 2025
+Apr 11 10:41:33 609d76958136 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="7" x-info="https://www.rsyslog.com"] start

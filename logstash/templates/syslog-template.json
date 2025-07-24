@@ -1,0 +1,25 @@
+{
+  "index_patterns": ["syslog-*"],
+  "template": {
+    "settings": {
+      "number_of_shards": 1,
+      "number_of_replicas": 0
+    },
+    "mappings": {
+      "dynamic": true,
+      "properties": {
+        "@timestamp": { "type": "date" },
+        "message": { "type": "text" },
+        "host_name": { "type": "keyword" },
+        "program": { "type": "keyword" },
+        "priority": { "type": "keyword" },
+        "facility": { "type": "keyword" },
+        "pid": { "type": "keyword" },
+        "source_ip": { "type": "ip" },
+        "log_level": { "type": "keyword" },
+        "transport": { "type": "keyword" },
+        "source_type": { "type": "keyword" }
+      }
+    }
+  }
+}

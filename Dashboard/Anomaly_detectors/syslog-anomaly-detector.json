@@ -1,0 +1,61 @@
+POST _plugins/_anomaly_detection/detectors
+{
+  "name": "syslog-anomaly-detector",
+  "description": "Detects anomalies based on messages tagged with 'ANOMALY' in syslogs",
+  "time_field": "@timestamp",
+  "indices": [
+    "syslog-*"
+  ],
+  "filter_query": {
+    "bool": {
+      "filter": [
+        {
+          "wildcard": {
+            "message.keyword": {
+              "wildcard": "*ANOMALY*",
+              "boost": 1
+            }
+          }
+        }
+      ],
+      "adjust_pure_negative": true,
+      "boost": 1
+    }
+  },
+  "detection_interval": {
+    "period": {
+      "interval": 1,
+      "unit": "Minutes"
+    }
+  },
+  "window_delay": {
+    "period": {
+      "interval": 1,
+      "unit": "Minutes"
+    }
+  },
+  "shingle_size": 8,
+  "schema_version": 0,
+  "feature_attributes": [
+    {
+      "feature_id": "TM0e0JYBcTvXAZ81AV1J",
+      "feature_name": "error_rate",
+      "feature_enabled": true,
+      "aggregation_query": {
+        "error_rate": {
+          "value_count": {
+            "field": "message.keyword"
+          }
+        }
+      }
+    }
+  ],
+  "ui_metadata": {
+    "features": {
+      "error_rate": {
+        "aggregationBy": "value_count",
+        "aggregationOf": "message.keyword"
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+{"TRANSPORT":"rfc3164+udp","SOURCE":"s_network_udp","PROGRAM":"rsyslogd","MSGFORMAT":"rfc3164","MESSAGE":"[origin software=\"rsyslogd\" swVersion=\"8.2312.0\" x-pid=\"8\" x-info=\"https://www.rsyslog.com\"] start","LEGACY_MSGHDR":"rsyslogd: ","HOST_FROM":"172.19.0.3","HOST":"5f1d3ee4baa1"}
+{"TRANSPORT":"rfc3164+udp","SOURCE":"s_network_udp","PROGRAM":"rsyslogd","MSGFORMAT":"rfc3164","MESSAGE":"[origin software=\"rsyslogd\" swVersion=\"8.2312.0\" x-pid=\"8\" x-info=\"https://www.rsyslog.com\"] start","LEGACY_MSGHDR":"rsyslogd: ","HOST_FROM":"172.18.0.6","HOST":"30dcbafabb60"}

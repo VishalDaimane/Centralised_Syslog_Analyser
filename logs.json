@@ -1,0 +1,3 @@
+{"message":"[2025-04-04T14:22:31][INFO][App.Class] [myhost] This is a sample log"}
+{"message":"[2025-04-05T09:11:02][WARN][App.Class] [myhost] Something went wrong"}
+{"message":"[2025-04-06T08:00:00][ERROR][App.Class] [myhost] Unrelated log"}

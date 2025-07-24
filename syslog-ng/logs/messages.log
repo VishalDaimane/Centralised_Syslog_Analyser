@@ -1,0 +1,18 @@
+Apr  7 20:18:54 4dce70270c9f root: Test UDP message1
+Apr  7 20:18:54 4dce70270c9f rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2312.0 try https://www.rsyslog.com/e/2359 ]
+Apr  7 20:48:10 56cab522991e rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start
+Apr  7 20:49:13 56cab522991e root: Final UDP test message
+Apr  7 20:51:15 56cab522991e root: Hello World
+Apr  7 20:56:53 1d6871813930 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start
+Apr  7 20:57:53 1d6871813930 root: Hello from client
+Apr  8 09:36:44 3ea1fc9081bb rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start
+Apr  8 09:40:52 3ea1fc9081bb root: Hello  message - Tue Apr  8 03:10:52 PM IST 2025
+Apr  8 09:41:44 3ea1fc9081bb root: Test UDP message1
+Apr  8 09:49:50 3ea1fc9081bb root: Hello  message1 - Tue Apr  8 03:19:50 PM IST 2025
+Apr  8 10:02:14 3ea1fc9081bb rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="7" x-info="https://www.rsyslog.com"] start
+Apr  8 11:15:49 609d76958136 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start
+Apr  8 11:16:00 609d76958136 root: Hello  message3 - Tue Apr  8 04:46:00 PM IST 2025
+Apr  8 11:46:55 609d76958136 root: Hello  message4 - Tue Apr  8 05:16:55 PM IST 2025
+Apr 11 10:41:33 609d76958136 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="7" x-info="https://www.rsyslog.com"] start
+Apr 16 11:56:46 5f1d3ee4baa1 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start
+Apr 16 12:01:16 30dcbafabb60 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start

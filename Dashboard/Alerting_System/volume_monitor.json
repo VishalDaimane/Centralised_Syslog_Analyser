@@ -1,0 +1,69 @@
+POST _plugins/_alerting/monitors
+{
+  "name": "volume_monitor",
+  "type": "monitor",
+  "monitor_type": "query_level_monitor",
+  "enabled": true,
+  "schedule": {
+    "period": {
+      "unit": "MINUTES",
+      "interval": 1
+    }
+  },
+  "inputs": [
+    {
+      "search": {
+        "indices": [
+          "syslog-*"
+        ],
+        "query": {
+          "size": 0,
+          "query": {
+            "range": {
+              "@timestamp": {
+                "from": "now-5m",
+                "to": null,
+                "include_lower": true,
+                "include_upper": true,
+                "boost": 1
+              }
+            }
+          },
+          "aggregations": {
+            "log_count": {
+              "value_count": {
+                "field": "message"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "triggers": [
+    {
+      "query_level_trigger": {
+        "id": "k90fB5cBxgFH05FDxSta",
+        "name": "volume_trigger_5000",
+        "severity": "1",
+        "condition": {
+          "script": {
+            "source": "return ctx.results[0].aggregations.log_count.value > 5000;",
+            "lang": "painless"
+          }
+        },
+        "actions": [
+          {
+            "name": "send_alert_action",
+            "destination_id": "rRF4FZcB1A0b9BdVayWA", //Replace with your destination ID if changing the channel
+            "message_template": {
+              "source": "High volume detected: {{ctx.results[0].aggregations.log_count.value}} logs in the last 5 minutes.",
+              "lang": "mustache"
+            },
+            "throttle_enabled": false
+          }
+        ]
+      }
+    }
+  ]
+}

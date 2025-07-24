@@ -1,0 +1,3 @@
+Apr  7 20:48:10 56cab522991e rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start
+Apr  7 20:49:13 56cab522991e root: Final UDP test message
+Apr  7 20:51:15 56cab522991e root: Hello World

@@ -1,0 +1,38 @@
+input {
+  beats {
+    port => 5044
+    ssl => false
+  }
+}
+
+filter {
+  if [docker][container][labels][com_docker_compose_project] {
+    mutate {
+      add_field => { "[@metadata][project]" => "%{[docker][container][labels][com_docker_compose_project]}" }
+    }
+  }
+
+  if [docker][container][labels][com_docker_compose_service] {
+    mutate {
+      add_field => { "[@metadata][service]" => "%{[docker][container][labels][com_docker_compose_service]}" }
+    }
+  }
+
+  if [message] =~ /^{.*}$/ {
+    json {
+      source => "message"
+      target => "json_content"
+    }
+  }
+}
+
+output {
+  opensearch {
+    hosts => ["https://opensearch:9200"]
+    index => "test-logs-%{+YYYY.MM.dd}"  # Simplified static pattern
+    user => "admin"
+    password => "MyStrongPassword123!"
+    ssl => true
+    ssl_certificate_verification => false
+  }
+}

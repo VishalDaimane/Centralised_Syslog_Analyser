@@ -1,0 +1,22 @@
+Apr  7 05:03:51 c3cedbdd9511 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Apr  7 05:03:51 c3cedbdd9511 rsyslogd: activation of module imklog failed [v8.2312.0 try https://www.rsyslog.com/e/2145 ]
+Apr  7 05:03:51 c3cedbdd9511 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="3674" x-info="https://www.rsyslog.com"] start
+Apr  7 05:04:08 c3cedbdd9511 root: Test message from rsyslog-client
+Apr  7 09:11:35 0e3d114ac6be rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Apr  7 09:11:35 0e3d114ac6be rsyslogd: activation of module imklog failed [v8.2312.0 try https://www.rsyslog.com/e/2145 ]
+Apr  7 09:11:35 0e3d114ac6be rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="3680" x-info="https://www.rsyslog.com"] start
+Apr  7 09:12:14 0e3d114ac6be root: Test message from rsyslog-client
+Apr  7 09:15:30 172.18.0.1 Final test TCP
+Apr  7 09:15:41 172.18.0.1 Final test UDP
+Apr  7 19:12:15 bec7e4dfb891 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Apr  7 19:12:15 bec7e4dfb891 rsyslogd: activation of module imklog failed [v8.2312.0 try https://www.rsyslog.com/e/2145 ]
+Apr  7 19:12:15 bec7e4dfb891 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="3680" x-info="https://www.rsyslog.com"] start
+Apr  7 20:14:22 1710e91ba97a root: Test UDP message
+Apr  7 20:14:22 1710e91ba97a rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2312.0 try https://www.rsyslog.com/e/2359 ]
+Apr  7 20:18:54 4dce70270c9f root: Test UDP message1
+Apr  7 20:18:54 4dce70270c9f rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2312.0 try https://www.rsyslog.com/e/2359 ]
+Apr  7 20:48:10 56cab522991e rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start
+Apr  7 20:49:13 56cab522991e root: Final UDP test message
+Apr  7 20:51:15 56cab522991e root: Hello World
+Apr  7 20:56:53 1d6871813930 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start
+Apr  7 20:57:53 1d6871813930 root: Hello from client

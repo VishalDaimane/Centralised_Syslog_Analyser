@@ -1,0 +1,66 @@
+POST _plugins/_anomaly_detection/detectors
+{
+  "name": "service_failure_detector",
+  "description": "Detects service failures based on syslog messages",
+  "time_field": "@timestamp",
+  "indices": [
+    "syslog-*"
+  ],
+  "filter_query": {
+    "bool": {
+      "filter": [
+        {
+          "wildcard": {
+            "message.keyword": {
+              "wildcard": "*Failed with result*",
+              "boost": 1
+            }
+          }
+        },
+        {
+          "query_string": {
+            "query": "*kernel*",
+            "default_field": "message",
+            "default_operator": "or",
+            "fuzziness": "AUTO"
+          }
+        },
+        {
+          "query_string": {
+            "query": "*failed*",
+            "default_field": "message",
+            "default_operator": "or",
+            "fuzziness": "AUTO"
+          }
+        }
+      ]
+    }
+  },
+  "detection_interval": {
+    "period": {
+      "interval": 10,
+      "unit": "Minutes"
+    }
+  },
+  "window_delay": {
+    "period": {
+      "interval": 1,
+      "unit": "Minutes"
+    }
+  },
+  "shingle_size": 8,
+  "schema_version": 0,
+  "feature_attributes": [
+    {
+      "feature_name": "service_failure_count",
+      "feature_enabled": true,
+      "aggregation_query": {
+        "service_failure_count": {
+          "value_count": {
+            "field": "message.keyword"
+          }
+        }
+      }
+    }
+  ]
+}

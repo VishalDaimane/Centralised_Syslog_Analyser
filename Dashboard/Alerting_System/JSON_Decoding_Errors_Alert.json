@@ -1,0 +1,85 @@
+POST _plugins/_alerting/monitors
+{
+  "name": "JSON Decoding Errors Alert",
+  "type": "monitor",
+  "monitor_type": "query_level_monitor",
+  "enabled": true,
+  "schedule": {
+    "period": {
+      "unit": "MINUTES",
+      "interval": 5
+    }
+  },
+  "inputs": [
+    {
+      "search": {
+        "indices": [
+          "syslog-*"
+        ],
+        "query": {
+          "query": {
+            "bool": {
+              "must": [
+                {
+                  "term": {
+                    "error.type": {
+                      "value": "json",
+                      "boost": 1
+                    }
+                  }
+                },
+                {
+                  "match": {
+                    "error.message": {
+                      "query": "cannot unmarshal string",
+                      "operator": "OR",
+                      "prefix_length": 0,
+                      "max_expansions": 50,
+                      "fuzzy_transpositions": true,
+                      "lenient": false,
+                      "zero_terms_query": "NONE",
+                      "auto_generate_synonyms_phrase_query": true,
+                      "boost": 1
+                    }
+                  }
+                }
+              ],
+              "adjust_pure_negative": true,
+              "boost": 1
+            }
+          }
+        }
+      }
+    }
+  ],
+  "triggers": [
+    {
+      "query_level_trigger": {
+        "id": "BHcVyZYBFmif...",
+        "name": "json_unmarshal_alert",
+        "severity": "2",
+        "condition": {
+          "script": {
+            "source": "return ctx.results[0].hits.total.value > 0;",
+            "lang": "painless"
+          }
+        },
+        "actions": [
+          {
+            "name": "Notify JSON Error",
+            "destination_id": "rRF4FZcB1A0b9BdVayWA",  //Replace with your destination ID if changing the channel
+            "message_template": {
+              "source": "Found JSON unmarshal errors in logs!",
+              "lang": "mustache"
+            },
+            "throttle_enabled": true,
+            "throttle": {
+              "value": 10,
+              "unit": "MINUTES"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

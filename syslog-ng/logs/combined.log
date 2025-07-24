@@ -1,0 +1,1461 @@
+Apr  6 17:42:54 e8571b508c72 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  6 17:45:19 e8571b508c72 syslog-ng[1]: Syslog connection accepted; fd='17', client='AF_INET(172.18.0.1:61510)', local='AF_INET(0.0.0.0:514)'
+Apr  6 17:45:19 172.18.0.1 Final working test
+Apr  6 17:46:03 e8571b508c72 syslog-ng[1]: Syslog connection closed; fd='17', client='AF_INET(172.18.0.1:61510)', local='AF_INET(0.0.0.0:514)'
+Apr  6 17:46:03 e8571b508c72 syslog-ng[1]: Syslog connection accepted; fd='17', client='AF_INET(172.18.0.1:56258)', local='AF_INET(0.0.0.0:514)'
+Apr  6 17:46:03 172.18.0.1 -- MARK --
+Apr  6 17:46:19 e8571b508c72 syslog-ng[1]: Syslog connection accepted; fd='18', client='AF_INET(172.18.0.1:60812)', local='AF_INET(0.0.0.0:514)'
+Apr  6 17:46:19 172.18.0.1 Test TCP message
+Apr  6 17:51:20 e8571b508c72 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  6 17:51:22 e42563b91a82 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  6 17:51:22 e42563b91a82 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 17:53:09 e42563b91a82 syslog-ng[1]: Syslog connection accepted; fd='20', client='AF_INET(172.18.0.1:64162)', local='AF_INET(0.0.0.0:514)'
+Apr  6 17:53:09 172.18.0.1 Test TCP message
+Apr  6 17:53:30 e42563b91a82 syslog-ng[1]: Syslog connection closed; fd='20', client='AF_INET(172.18.0.1:64162)', local='AF_INET(0.0.0.0:514)'
+Apr  6 17:53:30 172.18.0.1 Test UDP message
+Apr  6 17:57:28 e42563b91a82 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  6 17:59:51 f5182d23427e syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  6 17:59:51 f5182d23427e syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 18:00:10 f5182d23427e syslog-ng[1]: Syslog connection accepted; fd='20', client='AF_INET(172.18.0.1:59344)', local='AF_INET(0.0.0.0:514)'
+Apr  6 18:00:10 172.18.0.1 Test message
+Apr  6 18:00:33 f5182d23427e syslog-ng[1]: Syslog connection closed; fd='20', client='AF_INET(172.18.0.1:59344)', local='AF_INET(0.0.0.0:514)'
+Apr  6 18:04:36 f5182d23427e kernel: docker0: port 2(veth4d3f4ba) entered blocking state
+Apr  6 18:04:36 f5182d23427e kernel: docker0: port 2(veth4d3f4ba) entered disabled state
+Apr  6 18:04:36 f5182d23427e kernel: veth4d3f4ba: entered allmulticast mode
+Apr  6 18:04:36 f5182d23427e kernel: veth4d3f4ba: entered promiscuous mode
+Apr  6 18:04:36 f5182d23427e syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 18:04:36 f5182d23427e kernel: eth0: renamed from veth548adf1
+Apr  6 18:04:36 f5182d23427e syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 18:04:36 f5182d23427e kernel: docker0: port 2(veth4d3f4ba) entered blocking state
+Apr  6 18:04:36 f5182d23427e kernel: docker0: port 2(veth4d3f4ba) entered forwarding state
+Apr  6 18:04:36 f5182d23427e syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 18:04:36 f5182d23427e kernel: docker0: port 2(veth4d3f4ba) entered disabled state
+Apr  6 18:04:36 f5182d23427e kernel: veth548adf1: renamed from eth0
+Apr  6 18:04:36 f5182d23427e syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 18:04:36 f5182d23427e kernel: docker0: port 2(veth4d3f4ba) entered disabled state
+Apr  6 18:04:36 f5182d23427e syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 18:04:36 f5182d23427e kernel: veth4d3f4ba (unregistering): left allmulticast mode
+Apr  6 18:04:36 f5182d23427e kernel: veth4d3f4ba (unregistering): left promiscuous mode
+Apr  6 18:04:36 f5182d23427e kernel: docker0: port 2(veth4d3f4ba) entered disabled state
+Apr  6 18:04:36 f5182d23427e syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:41:47 a7712a14769a syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  6 19:41:47 a7712a14769a syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:46:11 a7712a14769a syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  6 19:46:22 69bec564c07f syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  6 19:46:22 69bec564c07f syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:46:56 69bec564c07f kernel: br-353530a24f0f: port 1(veth84019c8) entered disabled state
+Apr  6 19:46:56 69bec564c07f kernel: veth644edd9: renamed from eth0
+Apr  6 19:46:56 69bec564c07f syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:46:57 69bec564c07f kernel: br-353530a24f0f: port 1(veth84019c8) entered disabled state
+Apr  6 19:46:57 69bec564c07f kernel: veth84019c8 (unregistering): left allmulticast mode
+Apr  6 19:46:57 69bec564c07f kernel: veth84019c8 (unregistering): left promiscuous mode
+Apr  6 19:46:57 69bec564c07f kernel: br-353530a24f0f: port 1(veth84019c8) entered disabled state
+Apr  6 19:46:57 69bec564c07f syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:49:07 69bec564c07f syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  6 19:49:14 b72e95915a74 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  6 19:49:14 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:49:47 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth8339e77) entered disabled state
+Apr  6 19:49:47 b72e95915a74 kernel: vethc9417c4: renamed from eth0
+Apr  6 19:49:47 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:49:47 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth8339e77) entered disabled state
+Apr  6 19:49:47 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:49:47 b72e95915a74 kernel: veth8339e77 (unregistering): left allmulticast mode
+Apr  6 19:49:47 b72e95915a74 kernel: veth8339e77 (unregistering): left promiscuous mode
+Apr  6 19:49:47 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth8339e77) entered disabled state
+Apr  6 19:49:47 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:49:48 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth4fcb563) entered blocking state
+Apr  6 19:49:48 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth4fcb563) entered disabled state
+Apr  6 19:49:48 b72e95915a74 kernel: veth4fcb563: entered allmulticast mode
+Apr  6 19:49:48 b72e95915a74 kernel: veth4fcb563: entered promiscuous mode
+Apr  6 19:49:48 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:49:48 b72e95915a74 kernel: eth0: renamed from veth9c0298a
+Apr  6 19:49:48 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:49:48 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth4fcb563) entered blocking state
+Apr  6 19:49:48 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth4fcb563) entered forwarding state
+Apr  6 19:49:48 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:49:54 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth4fcb563) entered disabled state
+Apr  6 19:49:54 b72e95915a74 kernel: veth9c0298a: renamed from eth0
+Apr  6 19:49:54 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:49:54 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth4fcb563) entered disabled state
+Apr  6 19:49:54 b72e95915a74 kernel: veth4fcb563 (unregistering): left allmulticast mode
+Apr  6 19:49:54 b72e95915a74 kernel: veth4fcb563 (unregistering): left promiscuous mode
+Apr  6 19:49:54 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth4fcb563) entered disabled state
+Apr  6 19:49:54 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:49:54 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth8672051) entered blocking state
+Apr  6 19:49:54 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth8672051) entered disabled state
+Apr  6 19:49:54 b72e95915a74 kernel: veth8672051: entered allmulticast mode
+Apr  6 19:49:54 b72e95915a74 kernel: veth8672051: entered promiscuous mode
+Apr  6 19:49:54 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:49:55 b72e95915a74 kernel: eth0: renamed from veth37cfcf9
+Apr  6 19:49:55 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:49:55 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth8672051) entered blocking state
+Apr  6 19:49:55 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth8672051) entered forwarding state
+Apr  6 19:49:55 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:49:59 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth8672051) entered disabled state
+Apr  6 19:49:59 b72e95915a74 kernel: veth37cfcf9: renamed from eth0
+Apr  6 19:49:59 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:49:59 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth8672051) entered disabled state
+Apr  6 19:49:59 b72e95915a74 kernel: veth8672051 (unregistering): left allmulticast mode
+Apr  6 19:49:59 b72e95915a74 kernel: veth8672051 (unregistering): left promiscuous mode
+Apr  6 19:49:59 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth8672051) entered disabled state
+Apr  6 19:49:59 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:00 b72e95915a74 kernel: br-09fe30e09f96: port 2(vethed2d817) entered blocking state
+Apr  6 19:50:00 b72e95915a74 kernel: br-09fe30e09f96: port 2(vethed2d817) entered disabled state
+Apr  6 19:50:00 b72e95915a74 kernel: vethed2d817: entered allmulticast mode
+Apr  6 19:50:00 b72e95915a74 kernel: vethed2d817: entered promiscuous mode
+Apr  6 19:50:00 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:00 b72e95915a74 kernel: eth0: renamed from vetheb57d18
+Apr  6 19:50:00 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:00 b72e95915a74 kernel: br-09fe30e09f96: port 2(vethed2d817) entered blocking state
+Apr  6 19:50:00 b72e95915a74 kernel: br-09fe30e09f96: port 2(vethed2d817) entered forwarding state
+Apr  6 19:50:00 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:04 b72e95915a74 kernel: br-09fe30e09f96: port 2(vethed2d817) entered disabled state
+Apr  6 19:50:04 b72e95915a74 kernel: vetheb57d18: renamed from eth0
+Apr  6 19:50:04 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:04 b72e95915a74 kernel: br-09fe30e09f96: port 2(vethed2d817) entered disabled state
+Apr  6 19:50:04 b72e95915a74 kernel: vethed2d817 (unregistering): left allmulticast mode
+Apr  6 19:50:04 b72e95915a74 kernel: vethed2d817 (unregistering): left promiscuous mode
+Apr  6 19:50:04 b72e95915a74 kernel: br-09fe30e09f96: port 2(vethed2d817) entered disabled state
+Apr  6 19:50:04 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:05 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth638bcbb) entered blocking state
+Apr  6 19:50:05 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth638bcbb) entered disabled state
+Apr  6 19:50:05 b72e95915a74 kernel: veth638bcbb: entered allmulticast mode
+Apr  6 19:50:05 b72e95915a74 kernel: veth638bcbb: entered promiscuous mode
+Apr  6 19:50:05 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:05 b72e95915a74 kernel: eth0: renamed from veth7a5978c
+Apr  6 19:50:05 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:05 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth638bcbb) entered blocking state
+Apr  6 19:50:05 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth638bcbb) entered forwarding state
+Apr  6 19:50:05 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:11 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth638bcbb) entered disabled state
+Apr  6 19:50:11 b72e95915a74 kernel: veth7a5978c: renamed from eth0
+Apr  6 19:50:11 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:11 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth638bcbb) entered disabled state
+Apr  6 19:50:11 b72e95915a74 kernel: veth638bcbb (unregistering): left allmulticast mode
+Apr  6 19:50:11 b72e95915a74 kernel: veth638bcbb (unregistering): left promiscuous mode
+Apr  6 19:50:11 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth638bcbb) entered disabled state
+Apr  6 19:50:11 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:13 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth8f4751f) entered blocking state
+Apr  6 19:50:13 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth8f4751f) entered disabled state
+Apr  6 19:50:13 b72e95915a74 kernel: veth8f4751f: entered allmulticast mode
+Apr  6 19:50:13 b72e95915a74 kernel: veth8f4751f: entered promiscuous mode
+Apr  6 19:50:13 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:13 b72e95915a74 kernel: eth0: renamed from veth243d7b3
+Apr  6 19:50:13 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:13 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth8f4751f) entered blocking state
+Apr  6 19:50:13 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth8f4751f) entered forwarding state
+Apr  6 19:50:13 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:18 b72e95915a74 kernel: veth243d7b3: renamed from eth0
+Apr  6 19:50:18 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:18 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth8f4751f) entered disabled state
+Apr  6 19:50:18 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:18 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth8f4751f) entered disabled state
+Apr  6 19:50:18 b72e95915a74 kernel: veth8f4751f (unregistering): left allmulticast mode
+Apr  6 19:50:18 b72e95915a74 kernel: veth8f4751f (unregistering): left promiscuous mode
+Apr  6 19:50:18 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth8f4751f) entered disabled state
+Apr  6 19:50:18 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:21 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth1e92721) entered blocking state
+Apr  6 19:50:21 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth1e92721) entered disabled state
+Apr  6 19:50:21 b72e95915a74 kernel: veth1e92721: entered allmulticast mode
+Apr  6 19:50:21 b72e95915a74 kernel: veth1e92721: entered promiscuous mode
+Apr  6 19:50:21 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:21 b72e95915a74 kernel: eth0: renamed from veth78a9d01
+Apr  6 19:50:21 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:21 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth1e92721) entered blocking state
+Apr  6 19:50:21 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth1e92721) entered forwarding state
+Apr  6 19:50:21 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:28 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth1e92721) entered disabled state
+Apr  6 19:50:28 b72e95915a74 kernel: veth78a9d01: renamed from eth0
+Apr  6 19:50:28 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:28 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth1e92721) entered disabled state
+Apr  6 19:50:28 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:28 b72e95915a74 kernel: veth1e92721 (unregistering): left allmulticast mode
+Apr  6 19:50:28 b72e95915a74 kernel: veth1e92721 (unregistering): left promiscuous mode
+Apr  6 19:50:28 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth1e92721) entered disabled state
+Apr  6 19:50:28 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:34 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetha8ef94f) entered blocking state
+Apr  6 19:50:34 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetha8ef94f) entered disabled state
+Apr  6 19:50:34 b72e95915a74 kernel: vetha8ef94f: entered allmulticast mode
+Apr  6 19:50:34 b72e95915a74 kernel: vetha8ef94f: entered promiscuous mode
+Apr  6 19:50:34 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:34 b72e95915a74 kernel: eth0: renamed from vethcb31b0d
+Apr  6 19:50:34 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetha8ef94f) entered blocking state
+Apr  6 19:50:34 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetha8ef94f) entered forwarding state
+Apr  6 19:50:34 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:40 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetha8ef94f) entered disabled state
+Apr  6 19:50:40 b72e95915a74 kernel: vethcb31b0d: renamed from eth0
+Apr  6 19:50:40 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:40 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetha8ef94f) entered disabled state
+Apr  6 19:50:40 b72e95915a74 kernel: vetha8ef94f (unregistering): left allmulticast mode
+Apr  6 19:50:40 b72e95915a74 kernel: vetha8ef94f (unregistering): left promiscuous mode
+Apr  6 19:50:40 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetha8ef94f) entered disabled state
+Apr  6 19:50:40 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:52 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetha183b11) entered blocking state
+Apr  6 19:50:52 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetha183b11) entered disabled state
+Apr  6 19:50:52 b72e95915a74 kernel: vetha183b11: entered allmulticast mode
+Apr  6 19:50:52 b72e95915a74 kernel: vetha183b11: entered promiscuous mode
+Apr  6 19:50:52 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:53 b72e95915a74 kernel: eth0: renamed from vethbdc4237
+Apr  6 19:50:53 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:50:53 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetha183b11) entered blocking state
+Apr  6 19:50:53 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetha183b11) entered forwarding state
+Apr  6 19:50:53 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:51:00 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetha183b11) entered disabled state
+Apr  6 19:51:00 b72e95915a74 kernel: vethbdc4237: renamed from eth0
+Apr  6 19:51:00 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:51:00 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetha183b11) entered disabled state
+Apr  6 19:51:00 b72e95915a74 kernel: vetha183b11 (unregistering): left allmulticast mode
+Apr  6 19:51:00 b72e95915a74 kernel: vetha183b11 (unregistering): left promiscuous mode
+Apr  6 19:51:00 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetha183b11) entered disabled state
+Apr  6 19:51:00 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:51:25 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetheddddd2) entered blocking state
+Apr  6 19:51:25 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetheddddd2) entered disabled state
+Apr  6 19:51:25 b72e95915a74 kernel: vetheddddd2: entered allmulticast mode
+Apr  6 19:51:25 b72e95915a74 kernel: vetheddddd2: entered promiscuous mode
+Apr  6 19:51:25 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:51:25 b72e95915a74 kernel: eth0: renamed from veth316c820
+Apr  6 19:51:25 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetheddddd2) entered blocking state
+Apr  6 19:51:25 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetheddddd2) entered forwarding state
+Apr  6 19:51:25 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:51:30 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetheddddd2) entered disabled state
+Apr  6 19:51:30 b72e95915a74 kernel: veth316c820: renamed from eth0
+Apr  6 19:51:30 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:51:30 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetheddddd2) entered disabled state
+Apr  6 19:51:30 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:51:30 b72e95915a74 kernel: vetheddddd2 (unregistering): left allmulticast mode
+Apr  6 19:51:30 b72e95915a74 kernel: vetheddddd2 (unregistering): left promiscuous mode
+Apr  6 19:51:30 b72e95915a74 kernel: br-09fe30e09f96: port 2(vetheddddd2) entered disabled state
+Apr  6 19:51:30 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:52:21 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth51ef142) entered blocking state
+Apr  6 19:52:21 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth51ef142) entered disabled state
+Apr  6 19:52:21 b72e95915a74 kernel: veth51ef142: entered allmulticast mode
+Apr  6 19:52:21 b72e95915a74 kernel: veth51ef142: entered promiscuous mode
+Apr  6 19:52:21 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:52:21 b72e95915a74 kernel: eth0: renamed from vetha1e9335
+Apr  6 19:52:21 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:52:21 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth51ef142) entered blocking state
+Apr  6 19:52:21 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth51ef142) entered forwarding state
+Apr  6 19:52:21 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:52:27 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth51ef142) entered disabled state
+Apr  6 19:52:27 b72e95915a74 kernel: vetha1e9335: renamed from eth0
+Apr  6 19:52:27 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:52:27 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth51ef142) entered disabled state
+Apr  6 19:52:27 b72e95915a74 kernel: veth51ef142 (unregistering): left allmulticast mode
+Apr  6 19:52:27 b72e95915a74 kernel: veth51ef142 (unregistering): left promiscuous mode
+Apr  6 19:52:27 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth51ef142) entered disabled state
+Apr  6 19:52:27 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:53:27 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth458894e) entered blocking state
+Apr  6 19:53:27 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth458894e) entered disabled state
+Apr  6 19:53:27 b72e95915a74 kernel: veth458894e: entered allmulticast mode
+Apr  6 19:53:27 b72e95915a74 kernel: veth458894e: entered promiscuous mode
+Apr  6 19:53:27 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:53:27 b72e95915a74 kernel: eth0: renamed from veth12a5476
+Apr  6 19:53:27 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:53:27 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth458894e) entered blocking state
+Apr  6 19:53:27 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth458894e) entered forwarding state
+Apr  6 19:53:27 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:53:33 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth458894e) entered disabled state
+Apr  6 19:53:33 b72e95915a74 kernel: veth12a5476: renamed from eth0
+Apr  6 19:53:33 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:53:33 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth458894e) entered disabled state
+Apr  6 19:53:33 b72e95915a74 kernel: veth458894e (unregistering): left allmulticast mode
+Apr  6 19:53:33 b72e95915a74 kernel: veth458894e (unregistering): left promiscuous mode
+Apr  6 19:53:33 b72e95915a74 kernel: br-09fe30e09f96: port 2(veth458894e) entered disabled state
+Apr  6 19:53:33 b72e95915a74 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:53:33 b72e95915a74 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  6 19:53:43 d61fcffa2fcf syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  6 19:53:43 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:14 d61fcffa2fcf kernel: veth3174224: renamed from eth0
+Apr  6 19:54:14 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth68254e6) entered disabled state
+Apr  6 19:54:14 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:14 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth68254e6) entered disabled state
+Apr  6 19:54:14 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:14 d61fcffa2fcf kernel: veth68254e6 (unregistering): left allmulticast mode
+Apr  6 19:54:14 d61fcffa2fcf kernel: veth68254e6 (unregistering): left promiscuous mode
+Apr  6 19:54:14 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth68254e6) entered disabled state
+Apr  6 19:54:14 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:14 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5cfb53f) entered blocking state
+Apr  6 19:54:14 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5cfb53f) entered disabled state
+Apr  6 19:54:14 d61fcffa2fcf kernel: veth5cfb53f: entered allmulticast mode
+Apr  6 19:54:14 d61fcffa2fcf kernel: veth5cfb53f: entered promiscuous mode
+Apr  6 19:54:14 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:15 d61fcffa2fcf kernel: eth0: renamed from vethea35ca5
+Apr  6 19:54:15 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:15 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5cfb53f) entered blocking state
+Apr  6 19:54:15 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5cfb53f) entered forwarding state
+Apr  6 19:54:15 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:19 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5cfb53f) entered disabled state
+Apr  6 19:54:19 d61fcffa2fcf kernel: vethea35ca5: renamed from eth0
+Apr  6 19:54:19 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:19 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5cfb53f) entered disabled state
+Apr  6 19:54:19 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:19 d61fcffa2fcf kernel: veth5cfb53f (unregistering): left allmulticast mode
+Apr  6 19:54:19 d61fcffa2fcf kernel: veth5cfb53f (unregistering): left promiscuous mode
+Apr  6 19:54:19 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5cfb53f) entered disabled state
+Apr  6 19:54:19 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:19 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth93ee8f9) entered blocking state
+Apr  6 19:54:19 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth93ee8f9) entered disabled state
+Apr  6 19:54:19 d61fcffa2fcf kernel: veth93ee8f9: entered allmulticast mode
+Apr  6 19:54:19 d61fcffa2fcf kernel: veth93ee8f9: entered promiscuous mode
+Apr  6 19:54:19 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:19 d61fcffa2fcf kernel: eth0: renamed from veth58bdc86
+Apr  6 19:54:19 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth93ee8f9) entered blocking state
+Apr  6 19:54:19 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth93ee8f9) entered forwarding state
+Apr  6 19:54:19 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:24 d61fcffa2fcf kernel: veth58bdc86: renamed from eth0
+Apr  6 19:54:24 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:24 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth93ee8f9) entered disabled state
+Apr  6 19:54:24 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:24 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth93ee8f9) entered disabled state
+Apr  6 19:54:24 d61fcffa2fcf kernel: veth93ee8f9 (unregistering): left allmulticast mode
+Apr  6 19:54:24 d61fcffa2fcf kernel: veth93ee8f9 (unregistering): left promiscuous mode
+Apr  6 19:54:24 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth93ee8f9) entered disabled state
+Apr  6 19:54:24 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:24 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5357b76) entered blocking state
+Apr  6 19:54:24 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5357b76) entered disabled state
+Apr  6 19:54:24 d61fcffa2fcf kernel: veth5357b76: entered allmulticast mode
+Apr  6 19:54:24 d61fcffa2fcf kernel: veth5357b76: entered promiscuous mode
+Apr  6 19:54:24 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:24 d61fcffa2fcf kernel: eth0: renamed from veth80d04d4
+Apr  6 19:54:24 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:24 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5357b76) entered blocking state
+Apr  6 19:54:24 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5357b76) entered forwarding state
+Apr  6 19:54:24 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:29 d61fcffa2fcf kernel: veth80d04d4: renamed from eth0
+Apr  6 19:54:29 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5357b76) entered disabled state
+Apr  6 19:54:29 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:29 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5357b76) entered disabled state
+Apr  6 19:54:29 d61fcffa2fcf kernel: veth5357b76 (unregistering): left allmulticast mode
+Apr  6 19:54:29 d61fcffa2fcf kernel: veth5357b76 (unregistering): left promiscuous mode
+Apr  6 19:54:29 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5357b76) entered disabled state
+Apr  6 19:54:29 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:29 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth8d7fe1c) entered blocking state
+Apr  6 19:54:29 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth8d7fe1c) entered disabled state
+Apr  6 19:54:29 d61fcffa2fcf kernel: veth8d7fe1c: entered allmulticast mode
+Apr  6 19:54:29 d61fcffa2fcf kernel: veth8d7fe1c: entered promiscuous mode
+Apr  6 19:54:29 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:30 d61fcffa2fcf kernel: eth0: renamed from veth1d47d9e
+Apr  6 19:54:30 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth8d7fe1c) entered blocking state
+Apr  6 19:54:30 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth8d7fe1c) entered forwarding state
+Apr  6 19:54:30 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:36 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth8d7fe1c) entered disabled state
+Apr  6 19:54:36 d61fcffa2fcf kernel: veth1d47d9e: renamed from eth0
+Apr  6 19:54:36 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:36 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth8d7fe1c) entered disabled state
+Apr  6 19:54:36 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:36 d61fcffa2fcf kernel: veth8d7fe1c (unregistering): left allmulticast mode
+Apr  6 19:54:36 d61fcffa2fcf kernel: veth8d7fe1c (unregistering): left promiscuous mode
+Apr  6 19:54:36 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth8d7fe1c) entered disabled state
+Apr  6 19:54:36 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:38 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth4777a21) entered blocking state
+Apr  6 19:54:38 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth4777a21) entered disabled state
+Apr  6 19:54:38 d61fcffa2fcf kernel: veth4777a21: entered allmulticast mode
+Apr  6 19:54:38 d61fcffa2fcf kernel: veth4777a21: entered promiscuous mode
+Apr  6 19:54:38 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:38 d61fcffa2fcf kernel: eth0: renamed from veth5d7f8f0
+Apr  6 19:54:38 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth4777a21) entered blocking state
+Apr  6 19:54:38 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth4777a21) entered forwarding state
+Apr  6 19:54:38 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:47 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth4777a21) entered disabled state
+Apr  6 19:54:47 d61fcffa2fcf kernel: veth5d7f8f0: renamed from eth0
+Apr  6 19:54:47 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:47 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth4777a21) entered disabled state
+Apr  6 19:54:47 d61fcffa2fcf kernel: veth4777a21 (unregistering): left allmulticast mode
+Apr  6 19:54:47 d61fcffa2fcf kernel: veth4777a21 (unregistering): left promiscuous mode
+Apr  6 19:54:47 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth4777a21) entered disabled state
+Apr  6 19:54:47 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:50 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(vethef274f4) entered blocking state
+Apr  6 19:54:50 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(vethef274f4) entered disabled state
+Apr  6 19:54:50 d61fcffa2fcf kernel: vethef274f4: entered allmulticast mode
+Apr  6 19:54:50 d61fcffa2fcf kernel: vethef274f4: entered promiscuous mode
+Apr  6 19:54:50 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:50 d61fcffa2fcf kernel: eth0: renamed from vethb488c95
+Apr  6 19:54:50 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:50 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(vethef274f4) entered blocking state
+Apr  6 19:54:50 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(vethef274f4) entered forwarding state
+Apr  6 19:54:50 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:55 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(vethef274f4) entered disabled state
+Apr  6 19:54:55 d61fcffa2fcf kernel: vethb488c95: renamed from eth0
+Apr  6 19:54:55 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:55 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(vethef274f4) entered disabled state
+Apr  6 19:54:55 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:54:55 d61fcffa2fcf kernel: vethef274f4 (unregistering): left allmulticast mode
+Apr  6 19:54:55 d61fcffa2fcf kernel: vethef274f4 (unregistering): left promiscuous mode
+Apr  6 19:54:55 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(vethef274f4) entered disabled state
+Apr  6 19:54:55 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:55:01 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth436a6c9) entered blocking state
+Apr  6 19:55:01 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth436a6c9) entered disabled state
+Apr  6 19:55:01 d61fcffa2fcf kernel: veth436a6c9: entered allmulticast mode
+Apr  6 19:55:01 d61fcffa2fcf kernel: veth436a6c9: entered promiscuous mode
+Apr  6 19:55:01 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:55:02 d61fcffa2fcf kernel: eth0: renamed from veth303ae77
+Apr  6 19:55:02 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:55:02 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth436a6c9) entered blocking state
+Apr  6 19:55:02 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth436a6c9) entered forwarding state
+Apr  6 19:55:02 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:55:06 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth436a6c9) entered disabled state
+Apr  6 19:55:06 d61fcffa2fcf kernel: veth303ae77: renamed from eth0
+Apr  6 19:55:06 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:55:06 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth436a6c9) entered disabled state
+Apr  6 19:55:06 d61fcffa2fcf kernel: veth436a6c9 (unregistering): left allmulticast mode
+Apr  6 19:55:06 d61fcffa2fcf kernel: veth436a6c9 (unregistering): left promiscuous mode
+Apr  6 19:55:06 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth436a6c9) entered disabled state
+Apr  6 19:55:06 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:55:19 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth547584b) entered blocking state
+Apr  6 19:55:19 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth547584b) entered disabled state
+Apr  6 19:55:19 d61fcffa2fcf kernel: veth547584b: entered allmulticast mode
+Apr  6 19:55:19 d61fcffa2fcf kernel: veth547584b: entered promiscuous mode
+Apr  6 19:55:19 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:55:19 d61fcffa2fcf kernel: eth0: renamed from veth2e917f7
+Apr  6 19:55:19 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:55:19 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth547584b) entered blocking state
+Apr  6 19:55:19 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth547584b) entered forwarding state
+Apr  6 19:55:19 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:55:23 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth547584b) entered disabled state
+Apr  6 19:55:23 d61fcffa2fcf kernel: veth2e917f7: renamed from eth0
+Apr  6 19:55:23 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:55:23 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth547584b) entered disabled state
+Apr  6 19:55:23 d61fcffa2fcf kernel: veth547584b (unregistering): left allmulticast mode
+Apr  6 19:55:23 d61fcffa2fcf kernel: veth547584b (unregistering): left promiscuous mode
+Apr  6 19:55:23 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth547584b) entered disabled state
+Apr  6 19:55:23 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:55:49 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(vethcbb288b) entered blocking state
+Apr  6 19:55:49 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(vethcbb288b) entered disabled state
+Apr  6 19:55:49 d61fcffa2fcf kernel: vethcbb288b: entered allmulticast mode
+Apr  6 19:55:49 d61fcffa2fcf kernel: vethcbb288b: entered promiscuous mode
+Apr  6 19:55:49 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:55:49 d61fcffa2fcf kernel: eth0: renamed from vethe4bc55a
+Apr  6 19:55:49 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(vethcbb288b) entered blocking state
+Apr  6 19:55:49 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(vethcbb288b) entered forwarding state
+Apr  6 19:55:49 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:55:55 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(vethcbb288b) entered disabled state
+Apr  6 19:55:55 d61fcffa2fcf kernel: vethe4bc55a: renamed from eth0
+Apr  6 19:55:55 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:55:55 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(vethcbb288b) entered disabled state
+Apr  6 19:55:55 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:55:55 d61fcffa2fcf kernel: vethcbb288b (unregistering): left allmulticast mode
+Apr  6 19:55:55 d61fcffa2fcf kernel: vethcbb288b (unregistering): left promiscuous mode
+Apr  6 19:55:55 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(vethcbb288b) entered disabled state
+Apr  6 19:55:55 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:56:47 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5ca6971) entered blocking state
+Apr  6 19:56:47 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5ca6971) entered disabled state
+Apr  6 19:56:47 d61fcffa2fcf kernel: veth5ca6971: entered allmulticast mode
+Apr  6 19:56:47 d61fcffa2fcf kernel: veth5ca6971: entered promiscuous mode
+Apr  6 19:56:47 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:56:47 d61fcffa2fcf kernel: eth0: renamed from veth3be46e7
+Apr  6 19:56:47 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:56:47 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5ca6971) entered blocking state
+Apr  6 19:56:47 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5ca6971) entered forwarding state
+Apr  6 19:56:47 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:56:51 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5ca6971) entered disabled state
+Apr  6 19:56:51 d61fcffa2fcf kernel: veth3be46e7: renamed from eth0
+Apr  6 19:56:51 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:56:51 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5ca6971) entered disabled state
+Apr  6 19:56:51 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:56:51 d61fcffa2fcf kernel: veth5ca6971 (unregistering): left allmulticast mode
+Apr  6 19:56:51 d61fcffa2fcf kernel: veth5ca6971 (unregistering): left promiscuous mode
+Apr  6 19:56:51 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth5ca6971) entered disabled state
+Apr  6 19:56:51 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:57:51 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth6535553) entered blocking state
+Apr  6 19:57:51 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth6535553) entered disabled state
+Apr  6 19:57:51 d61fcffa2fcf kernel: veth6535553: entered allmulticast mode
+Apr  6 19:57:51 d61fcffa2fcf kernel: veth6535553: entered promiscuous mode
+Apr  6 19:57:51 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:57:51 d61fcffa2fcf kernel: eth0: renamed from vethe8293c9
+Apr  6 19:57:51 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:57:51 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth6535553) entered blocking state
+Apr  6 19:57:51 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth6535553) entered forwarding state
+Apr  6 19:57:51 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:57:57 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth6535553) entered disabled state
+Apr  6 19:57:57 d61fcffa2fcf kernel: vethe8293c9: renamed from eth0
+Apr  6 19:57:57 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:57:57 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth6535553) entered disabled state
+Apr  6 19:57:57 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:57:57 d61fcffa2fcf kernel: veth6535553 (unregistering): left allmulticast mode
+Apr  6 19:57:57 d61fcffa2fcf kernel: veth6535553 (unregistering): left promiscuous mode
+Apr  6 19:57:57 d61fcffa2fcf kernel: br-e949ba4ae31d: port 2(veth6535553) entered disabled state
+Apr  6 19:57:57 d61fcffa2fcf syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:58:03 d61fcffa2fcf syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  6 19:58:14 4d82afdcf96b syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  6 19:58:14 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:58:48 4d82afdcf96b kernel: vethbe4a511: renamed from eth0
+Apr  6 19:58:48 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:58:48 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth8ba3674) entered disabled state
+Apr  6 19:58:48 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:58:48 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth8ba3674) entered disabled state
+Apr  6 19:58:48 4d82afdcf96b kernel: veth8ba3674 (unregistering): left allmulticast mode
+Apr  6 19:58:48 4d82afdcf96b kernel: veth8ba3674 (unregistering): left promiscuous mode
+Apr  6 19:58:48 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth8ba3674) entered disabled state
+Apr  6 19:58:48 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:58:48 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(vethd7a52f6) entered blocking state
+Apr  6 19:58:48 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(vethd7a52f6) entered disabled state
+Apr  6 19:58:48 4d82afdcf96b kernel: vethd7a52f6: entered allmulticast mode
+Apr  6 19:58:48 4d82afdcf96b kernel: vethd7a52f6: entered promiscuous mode
+Apr  6 19:58:48 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:58:48 4d82afdcf96b kernel: eth0: renamed from veth30bdd76
+Apr  6 19:58:48 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:58:48 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(vethd7a52f6) entered blocking state
+Apr  6 19:58:48 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(vethd7a52f6) entered forwarding state
+Apr  6 19:58:48 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:58:53 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(vethd7a52f6) entered disabled state
+Apr  6 19:58:53 4d82afdcf96b kernel: veth30bdd76: renamed from eth0
+Apr  6 19:58:53 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:58:53 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(vethd7a52f6) entered disabled state
+Apr  6 19:58:53 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:58:53 4d82afdcf96b kernel: vethd7a52f6 (unregistering): left allmulticast mode
+Apr  6 19:58:53 4d82afdcf96b kernel: vethd7a52f6 (unregistering): left promiscuous mode
+Apr  6 19:58:53 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(vethd7a52f6) entered disabled state
+Apr  6 19:58:53 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:58:53 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth57cf11e) entered blocking state
+Apr  6 19:58:53 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth57cf11e) entered disabled state
+Apr  6 19:58:53 4d82afdcf96b kernel: veth57cf11e: entered allmulticast mode
+Apr  6 19:58:53 4d82afdcf96b kernel: veth57cf11e: entered promiscuous mode
+Apr  6 19:58:53 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:58:53 4d82afdcf96b kernel: eth0: renamed from vethb15b41c
+Apr  6 19:58:53 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:58:53 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth57cf11e) entered blocking state
+Apr  6 19:58:53 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth57cf11e) entered forwarding state
+Apr  6 19:58:53 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:00 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth57cf11e) entered disabled state
+Apr  6 19:59:00 4d82afdcf96b kernel: vethb15b41c: renamed from eth0
+Apr  6 19:59:00 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:00 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth57cf11e) entered disabled state
+Apr  6 19:59:00 4d82afdcf96b kernel: veth57cf11e (unregistering): left allmulticast mode
+Apr  6 19:59:00 4d82afdcf96b kernel: veth57cf11e (unregistering): left promiscuous mode
+Apr  6 19:59:00 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth57cf11e) entered disabled state
+Apr  6 19:59:00 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:00 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(vethbef380f) entered blocking state
+Apr  6 19:59:00 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(vethbef380f) entered disabled state
+Apr  6 19:59:00 4d82afdcf96b kernel: vethbef380f: entered allmulticast mode
+Apr  6 19:59:00 4d82afdcf96b kernel: vethbef380f: entered promiscuous mode
+Apr  6 19:59:00 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:01 4d82afdcf96b kernel: eth0: renamed from veth4a35b49
+Apr  6 19:59:01 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:01 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(vethbef380f) entered blocking state
+Apr  6 19:59:01 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(vethbef380f) entered forwarding state
+Apr  6 19:59:01 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:05 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(vethbef380f) entered disabled state
+Apr  6 19:59:05 4d82afdcf96b kernel: veth4a35b49: renamed from eth0
+Apr  6 19:59:05 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:05 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(vethbef380f) entered disabled state
+Apr  6 19:59:05 4d82afdcf96b kernel: vethbef380f (unregistering): left allmulticast mode
+Apr  6 19:59:05 4d82afdcf96b kernel: vethbef380f (unregistering): left promiscuous mode
+Apr  6 19:59:05 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(vethbef380f) entered disabled state
+Apr  6 19:59:05 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:06 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth22d5bad) entered blocking state
+Apr  6 19:59:06 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth22d5bad) entered disabled state
+Apr  6 19:59:06 4d82afdcf96b kernel: veth22d5bad: entered allmulticast mode
+Apr  6 19:59:06 4d82afdcf96b kernel: veth22d5bad: entered promiscuous mode
+Apr  6 19:59:06 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:06 4d82afdcf96b kernel: eth0: renamed from vetha7d5635
+Apr  6 19:59:06 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:06 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth22d5bad) entered blocking state
+Apr  6 19:59:06 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth22d5bad) entered forwarding state
+Apr  6 19:59:06 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:10 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth22d5bad) entered disabled state
+Apr  6 19:59:10 4d82afdcf96b kernel: vetha7d5635: renamed from eth0
+Apr  6 19:59:10 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:10 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth22d5bad) entered disabled state
+Apr  6 19:59:10 4d82afdcf96b kernel: veth22d5bad (unregistering): left allmulticast mode
+Apr  6 19:59:10 4d82afdcf96b kernel: veth22d5bad (unregistering): left promiscuous mode
+Apr  6 19:59:10 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth22d5bad) entered disabled state
+Apr  6 19:59:10 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:12 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth3e3d0f0) entered blocking state
+Apr  6 19:59:12 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth3e3d0f0) entered disabled state
+Apr  6 19:59:12 4d82afdcf96b kernel: veth3e3d0f0: entered allmulticast mode
+Apr  6 19:59:12 4d82afdcf96b kernel: veth3e3d0f0: entered promiscuous mode
+Apr  6 19:59:12 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:12 4d82afdcf96b kernel: eth0: renamed from veth93ad92a
+Apr  6 19:59:12 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:12 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth3e3d0f0) entered blocking state
+Apr  6 19:59:12 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth3e3d0f0) entered forwarding state
+Apr  6 19:59:12 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:16 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth3e3d0f0) entered disabled state
+Apr  6 19:59:16 4d82afdcf96b kernel: veth93ad92a: renamed from eth0
+Apr  6 19:59:16 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:16 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth3e3d0f0) entered disabled state
+Apr  6 19:59:16 4d82afdcf96b kernel: veth3e3d0f0 (unregistering): left allmulticast mode
+Apr  6 19:59:16 4d82afdcf96b kernel: veth3e3d0f0 (unregistering): left promiscuous mode
+Apr  6 19:59:16 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth3e3d0f0) entered disabled state
+Apr  6 19:59:16 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:19 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth7fd2ad4) entered blocking state
+Apr  6 19:59:19 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth7fd2ad4) entered disabled state
+Apr  6 19:59:19 4d82afdcf96b kernel: veth7fd2ad4: entered allmulticast mode
+Apr  6 19:59:19 4d82afdcf96b kernel: veth7fd2ad4: entered promiscuous mode
+Apr  6 19:59:19 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:19 4d82afdcf96b kernel: eth0: renamed from veth3a71777
+Apr  6 19:59:19 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:19 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth7fd2ad4) entered blocking state
+Apr  6 19:59:19 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth7fd2ad4) entered forwarding state
+Apr  6 19:59:19 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:24 4d82afdcf96b kernel: veth3a71777: renamed from eth0
+Apr  6 19:59:24 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:24 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth7fd2ad4) entered disabled state
+Apr  6 19:59:24 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:24 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth7fd2ad4) entered disabled state
+Apr  6 19:59:24 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:24 4d82afdcf96b kernel: veth7fd2ad4 (unregistering): left allmulticast mode
+Apr  6 19:59:24 4d82afdcf96b kernel: veth7fd2ad4 (unregistering): left promiscuous mode
+Apr  6 19:59:24 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth7fd2ad4) entered disabled state
+Apr  6 19:59:24 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:30 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth227893c) entered blocking state
+Apr  6 19:59:30 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth227893c) entered disabled state
+Apr  6 19:59:30 4d82afdcf96b kernel: veth227893c: entered allmulticast mode
+Apr  6 19:59:30 4d82afdcf96b kernel: veth227893c: entered promiscuous mode
+Apr  6 19:59:30 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:30 4d82afdcf96b kernel: eth0: renamed from vethc7fd6d2
+Apr  6 19:59:30 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth227893c) entered blocking state
+Apr  6 19:59:30 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth227893c) entered forwarding state
+Apr  6 19:59:30 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:35 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth227893c) entered disabled state
+Apr  6 19:59:35 4d82afdcf96b kernel: vethc7fd6d2: renamed from eth0
+Apr  6 19:59:35 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:35 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth227893c) entered disabled state
+Apr  6 19:59:35 4d82afdcf96b kernel: veth227893c (unregistering): left allmulticast mode
+Apr  6 19:59:35 4d82afdcf96b kernel: veth227893c (unregistering): left promiscuous mode
+Apr  6 19:59:35 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth227893c) entered disabled state
+Apr  6 19:59:35 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:47 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth091b497) entered blocking state
+Apr  6 19:59:47 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth091b497) entered disabled state
+Apr  6 19:59:47 4d82afdcf96b kernel: veth091b497: entered allmulticast mode
+Apr  6 19:59:47 4d82afdcf96b kernel: veth091b497: entered promiscuous mode
+Apr  6 19:59:47 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:48 4d82afdcf96b kernel: eth0: renamed from veth83d6303
+Apr  6 19:59:48 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:48 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth091b497) entered blocking state
+Apr  6 19:59:48 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth091b497) entered forwarding state
+Apr  6 19:59:48 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:52 4d82afdcf96b kernel: veth83d6303: renamed from eth0
+Apr  6 19:59:52 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:52 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth091b497) entered disabled state
+Apr  6 19:59:52 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 19:59:52 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth091b497) entered disabled state
+Apr  6 19:59:52 4d82afdcf96b kernel: veth091b497 (unregistering): left allmulticast mode
+Apr  6 19:59:52 4d82afdcf96b kernel: veth091b497 (unregistering): left promiscuous mode
+Apr  6 19:59:52 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth091b497) entered disabled state
+Apr  6 19:59:52 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:00:17 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth9be96dc) entered blocking state
+Apr  6 20:00:17 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth9be96dc) entered disabled state
+Apr  6 20:00:17 4d82afdcf96b kernel: veth9be96dc: entered allmulticast mode
+Apr  6 20:00:17 4d82afdcf96b kernel: veth9be96dc: entered promiscuous mode
+Apr  6 20:00:17 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:00:18 4d82afdcf96b kernel: eth0: renamed from vethd98e550
+Apr  6 20:00:18 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:00:18 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth9be96dc) entered blocking state
+Apr  6 20:00:18 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth9be96dc) entered forwarding state
+Apr  6 20:00:18 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:00:23 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth9be96dc) entered disabled state
+Apr  6 20:00:23 4d82afdcf96b kernel: vethd98e550: renamed from eth0
+Apr  6 20:00:23 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:00:23 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth9be96dc) entered disabled state
+Apr  6 20:00:23 4d82afdcf96b kernel: veth9be96dc (unregistering): left allmulticast mode
+Apr  6 20:00:23 4d82afdcf96b kernel: veth9be96dc (unregistering): left promiscuous mode
+Apr  6 20:00:23 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth9be96dc) entered disabled state
+Apr  6 20:00:23 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:01:15 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth55aefaa) entered blocking state
+Apr  6 20:01:15 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth55aefaa) entered disabled state
+Apr  6 20:01:15 4d82afdcf96b kernel: veth55aefaa: entered allmulticast mode
+Apr  6 20:01:15 4d82afdcf96b kernel: veth55aefaa: entered promiscuous mode
+Apr  6 20:01:15 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:01:15 4d82afdcf96b kernel: eth0: renamed from veth8770a97
+Apr  6 20:01:15 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:01:15 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth55aefaa) entered blocking state
+Apr  6 20:01:15 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth55aefaa) entered forwarding state
+Apr  6 20:01:15 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:01:19 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth55aefaa) entered disabled state
+Apr  6 20:01:19 4d82afdcf96b kernel: veth8770a97: renamed from eth0
+Apr  6 20:01:19 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:01:19 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth55aefaa) entered disabled state
+Apr  6 20:01:19 4d82afdcf96b kernel: veth55aefaa (unregistering): left allmulticast mode
+Apr  6 20:01:19 4d82afdcf96b kernel: veth55aefaa (unregistering): left promiscuous mode
+Apr  6 20:01:19 4d82afdcf96b kernel: br-c2cf23c8e675: port 2(veth55aefaa) entered disabled state
+Apr  6 20:01:19 4d82afdcf96b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:01:57 4d82afdcf96b syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  6 20:02:05 670924ea5755 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  6 20:02:05 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:11 670924ea5755 kernel: br-dae380e46a3d: port 2(veth5a5819a) entered disabled state
+Apr  6 20:03:11 670924ea5755 kernel: veth3c6b3f5: renamed from eth0
+Apr  6 20:03:11 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:11 670924ea5755 kernel: br-dae380e46a3d: port 2(veth5a5819a) entered disabled state
+Apr  6 20:03:11 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:11 670924ea5755 kernel: veth5a5819a (unregistering): left allmulticast mode
+Apr  6 20:03:11 670924ea5755 kernel: veth5a5819a (unregistering): left promiscuous mode
+Apr  6 20:03:11 670924ea5755 kernel: br-dae380e46a3d: port 2(veth5a5819a) entered disabled state
+Apr  6 20:03:11 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:11 670924ea5755 kernel: br-dae380e46a3d: port 2(veth6621a66) entered blocking state
+Apr  6 20:03:11 670924ea5755 kernel: br-dae380e46a3d: port 2(veth6621a66) entered disabled state
+Apr  6 20:03:11 670924ea5755 kernel: veth6621a66: entered allmulticast mode
+Apr  6 20:03:11 670924ea5755 kernel: veth6621a66: entered promiscuous mode
+Apr  6 20:03:11 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:11 670924ea5755 kernel: eth0: renamed from veth80e2eb3
+Apr  6 20:03:11 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:11 670924ea5755 kernel: br-dae380e46a3d: port 2(veth6621a66) entered blocking state
+Apr  6 20:03:11 670924ea5755 kernel: br-dae380e46a3d: port 2(veth6621a66) entered forwarding state
+Apr  6 20:03:11 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:16 670924ea5755 kernel: br-dae380e46a3d: port 2(veth6621a66) entered disabled state
+Apr  6 20:03:16 670924ea5755 kernel: veth80e2eb3: renamed from eth0
+Apr  6 20:03:16 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:16 670924ea5755 kernel: br-dae380e46a3d: port 2(veth6621a66) entered disabled state
+Apr  6 20:03:16 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:16 670924ea5755 kernel: veth6621a66 (unregistering): left allmulticast mode
+Apr  6 20:03:16 670924ea5755 kernel: veth6621a66 (unregistering): left promiscuous mode
+Apr  6 20:03:16 670924ea5755 kernel: br-dae380e46a3d: port 2(veth6621a66) entered disabled state
+Apr  6 20:03:16 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:16 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf56961b) entered blocking state
+Apr  6 20:03:16 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf56961b) entered disabled state
+Apr  6 20:03:16 670924ea5755 kernel: vethf56961b: entered allmulticast mode
+Apr  6 20:03:16 670924ea5755 kernel: vethf56961b: entered promiscuous mode
+Apr  6 20:03:16 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:17 670924ea5755 kernel: eth0: renamed from vethba44c37
+Apr  6 20:03:17 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:17 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf56961b) entered blocking state
+Apr  6 20:03:17 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf56961b) entered forwarding state
+Apr  6 20:03:17 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:21 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf56961b) entered disabled state
+Apr  6 20:03:21 670924ea5755 kernel: vethba44c37: renamed from eth0
+Apr  6 20:03:21 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:21 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf56961b) entered disabled state
+Apr  6 20:03:21 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:21 670924ea5755 kernel: vethf56961b (unregistering): left allmulticast mode
+Apr  6 20:03:21 670924ea5755 kernel: vethf56961b (unregistering): left promiscuous mode
+Apr  6 20:03:21 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf56961b) entered disabled state
+Apr  6 20:03:21 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:21 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf993068) entered blocking state
+Apr  6 20:03:21 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf993068) entered disabled state
+Apr  6 20:03:21 670924ea5755 kernel: vethf993068: entered allmulticast mode
+Apr  6 20:03:21 670924ea5755 kernel: vethf993068: entered promiscuous mode
+Apr  6 20:03:21 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:21 670924ea5755 kernel: eth0: renamed from veth58aaa12
+Apr  6 20:03:21 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:21 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf993068) entered blocking state
+Apr  6 20:03:21 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf993068) entered forwarding state
+Apr  6 20:03:21 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:26 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf993068) entered disabled state
+Apr  6 20:03:26 670924ea5755 kernel: veth58aaa12: renamed from eth0
+Apr  6 20:03:26 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:26 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf993068) entered disabled state
+Apr  6 20:03:26 670924ea5755 kernel: vethf993068 (unregistering): left allmulticast mode
+Apr  6 20:03:26 670924ea5755 kernel: vethf993068 (unregistering): left promiscuous mode
+Apr  6 20:03:26 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf993068) entered disabled state
+Apr  6 20:03:26 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:27 670924ea5755 kernel: br-dae380e46a3d: port 2(veth08a98af) entered blocking state
+Apr  6 20:03:27 670924ea5755 kernel: br-dae380e46a3d: port 2(veth08a98af) entered disabled state
+Apr  6 20:03:27 670924ea5755 kernel: veth08a98af: entered allmulticast mode
+Apr  6 20:03:27 670924ea5755 kernel: veth08a98af: entered promiscuous mode
+Apr  6 20:03:27 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:27 670924ea5755 kernel: eth0: renamed from vethda58776
+Apr  6 20:03:27 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  6 20:03:27 670924ea5755 kernel: br-dae380e46a3d: port 2(veth08a98af) entered blocking state
+Apr  6 20:03:27 670924ea5755 kernel: br-dae380e46a3d: port 2(veth08a98af) entered forwarding state
+Apr  6 20:03:27 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:20 670924ea5755 kernel: Hangcheck: hangcheck value past margin!
+Apr  7 04:57:20 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:28 670924ea5755 kernel: br-dae380e46a3d: port 2(veth08a98af) entered disabled state
+Apr  7 04:57:28 670924ea5755 kernel: vethda58776: renamed from eth0
+Apr  7 04:57:28 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:28 670924ea5755 kernel: br-dae380e46a3d: port 2(veth08a98af) entered disabled state
+Apr  7 04:57:28 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:28 670924ea5755 kernel: veth08a98af (unregistering): left allmulticast mode
+Apr  7 04:57:28 670924ea5755 kernel: veth08a98af (unregistering): left promiscuous mode
+Apr  7 04:57:28 670924ea5755 kernel: br-dae380e46a3d: port 2(veth08a98af) entered disabled state
+Apr  7 04:57:28 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:28 670924ea5755 kernel: br-dae380e46a3d: port 2(veth8d89411) entered blocking state
+Apr  7 04:57:28 670924ea5755 kernel: br-dae380e46a3d: port 2(veth8d89411) entered disabled state
+Apr  7 04:57:28 670924ea5755 kernel: veth8d89411: entered allmulticast mode
+Apr  7 04:57:28 670924ea5755 kernel: veth8d89411: entered promiscuous mode
+Apr  7 04:57:28 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:28 670924ea5755 kernel: eth0: renamed from vethe996007
+Apr  7 04:57:28 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:28 670924ea5755 kernel: br-dae380e46a3d: port 2(veth8d89411) entered blocking state
+Apr  7 04:57:28 670924ea5755 kernel: br-dae380e46a3d: port 2(veth8d89411) entered forwarding state
+Apr  7 04:57:28 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:37 670924ea5755 kernel: br-dae380e46a3d: port 2(veth8d89411) entered disabled state
+Apr  7 04:57:37 670924ea5755 kernel: vethe996007: renamed from eth0
+Apr  7 04:57:37 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:37 670924ea5755 kernel: br-dae380e46a3d: port 2(veth8d89411) entered disabled state
+Apr  7 04:57:37 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:37 670924ea5755 kernel: veth8d89411 (unregistering): left allmulticast mode
+Apr  7 04:57:37 670924ea5755 kernel: veth8d89411 (unregistering): left promiscuous mode
+Apr  7 04:57:37 670924ea5755 kernel: br-dae380e46a3d: port 2(veth8d89411) entered disabled state
+Apr  7 04:57:37 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:38 670924ea5755 kernel: br-dae380e46a3d: port 2(vethb47a49e) entered blocking state
+Apr  7 04:57:38 670924ea5755 kernel: br-dae380e46a3d: port 2(vethb47a49e) entered disabled state
+Apr  7 04:57:38 670924ea5755 kernel: vethb47a49e: entered allmulticast mode
+Apr  7 04:57:38 670924ea5755 kernel: vethb47a49e: entered promiscuous mode
+Apr  7 04:57:38 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:38 670924ea5755 kernel: eth0: renamed from veth2fa06a1
+Apr  7 04:57:38 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:38 670924ea5755 kernel: br-dae380e46a3d: port 2(vethb47a49e) entered blocking state
+Apr  7 04:57:38 670924ea5755 kernel: br-dae380e46a3d: port 2(vethb47a49e) entered forwarding state
+Apr  7 04:57:38 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:47 670924ea5755 kernel: br-dae380e46a3d: port 2(vethb47a49e) entered disabled state
+Apr  7 04:57:47 670924ea5755 kernel: veth2fa06a1: renamed from eth0
+Apr  7 04:57:47 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:47 670924ea5755 kernel: br-dae380e46a3d: port 2(vethb47a49e) entered disabled state
+Apr  7 04:57:47 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:47 670924ea5755 kernel: vethb47a49e (unregistering): left allmulticast mode
+Apr  7 04:57:47 670924ea5755 kernel: vethb47a49e (unregistering): left promiscuous mode
+Apr  7 04:57:47 670924ea5755 kernel: br-dae380e46a3d: port 2(vethb47a49e) entered disabled state
+Apr  7 04:57:47 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:48 670924ea5755 kernel: br-dae380e46a3d: port 2(veth7cf756a) entered blocking state
+Apr  7 04:57:48 670924ea5755 kernel: br-dae380e46a3d: port 2(veth7cf756a) entered disabled state
+Apr  7 04:57:48 670924ea5755 kernel: veth7cf756a: entered allmulticast mode
+Apr  7 04:57:48 670924ea5755 kernel: veth7cf756a: entered promiscuous mode
+Apr  7 04:57:48 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:48 670924ea5755 kernel: eth0: renamed from vethe750ad0
+Apr  7 04:57:48 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:48 670924ea5755 kernel: br-dae380e46a3d: port 2(veth7cf756a) entered blocking state
+Apr  7 04:57:48 670924ea5755 kernel: br-dae380e46a3d: port 2(veth7cf756a) entered forwarding state
+Apr  7 04:57:48 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:57 670924ea5755 kernel: br-dae380e46a3d: port 2(veth7cf756a) entered disabled state
+Apr  7 04:57:57 670924ea5755 kernel: vethe750ad0: renamed from eth0
+Apr  7 04:57:57 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:57 670924ea5755 kernel: br-dae380e46a3d: port 2(veth7cf756a) entered disabled state
+Apr  7 04:57:57 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:57 670924ea5755 kernel: veth7cf756a (unregistering): left allmulticast mode
+Apr  7 04:57:57 670924ea5755 kernel: veth7cf756a (unregistering): left promiscuous mode
+Apr  7 04:57:57 670924ea5755 kernel: br-dae380e46a3d: port 2(veth7cf756a) entered disabled state
+Apr  7 04:57:57 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:58 670924ea5755 kernel: br-dae380e46a3d: port 2(veth7a485d6) entered blocking state
+Apr  7 04:57:58 670924ea5755 kernel: br-dae380e46a3d: port 2(veth7a485d6) entered disabled state
+Apr  7 04:57:58 670924ea5755 kernel: veth7a485d6: entered allmulticast mode
+Apr  7 04:57:58 670924ea5755 kernel: veth7a485d6: entered promiscuous mode
+Apr  7 04:57:58 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:58 670924ea5755 kernel: eth0: renamed from vethfe26fc6
+Apr  7 04:57:58 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:57:58 670924ea5755 kernel: br-dae380e46a3d: port 2(veth7a485d6) entered blocking state
+Apr  7 04:57:58 670924ea5755 kernel: br-dae380e46a3d: port 2(veth7a485d6) entered forwarding state
+Apr  7 04:57:58 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:07 670924ea5755 kernel: br-dae380e46a3d: port 2(veth7a485d6) entered disabled state
+Apr  7 04:58:07 670924ea5755 kernel: vethfe26fc6: renamed from eth0
+Apr  7 04:58:07 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:07 670924ea5755 kernel: br-dae380e46a3d: port 2(veth7a485d6) entered disabled state
+Apr  7 04:58:07 670924ea5755 kernel: veth7a485d6 (unregistering): left allmulticast mode
+Apr  7 04:58:07 670924ea5755 kernel: veth7a485d6 (unregistering): left promiscuous mode
+Apr  7 04:58:07 670924ea5755 kernel: br-dae380e46a3d: port 2(veth7a485d6) entered disabled state
+Apr  7 04:58:07 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:09 670924ea5755 kernel: br-dae380e46a3d: port 2(veth56947f6) entered blocking state
+Apr  7 04:58:09 670924ea5755 kernel: br-dae380e46a3d: port 2(veth56947f6) entered disabled state
+Apr  7 04:58:09 670924ea5755 kernel: veth56947f6: entered allmulticast mode
+Apr  7 04:58:09 670924ea5755 kernel: veth56947f6: entered promiscuous mode
+Apr  7 04:58:09 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:09 670924ea5755 kernel: eth0: renamed from vethc09da5c
+Apr  7 04:58:09 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:09 670924ea5755 kernel: br-dae380e46a3d: port 2(veth56947f6) entered blocking state
+Apr  7 04:58:09 670924ea5755 kernel: br-dae380e46a3d: port 2(veth56947f6) entered forwarding state
+Apr  7 04:58:09 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:19 670924ea5755 kernel: vethc09da5c: renamed from eth0
+Apr  7 04:58:19 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:19 670924ea5755 kernel: br-dae380e46a3d: port 2(veth56947f6) entered disabled state
+Apr  7 04:58:19 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:19 670924ea5755 kernel: br-dae380e46a3d: port 2(veth56947f6) entered disabled state
+Apr  7 04:58:19 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:19 670924ea5755 kernel: veth56947f6 (unregistering): left allmulticast mode
+Apr  7 04:58:19 670924ea5755 kernel: veth56947f6 (unregistering): left promiscuous mode
+Apr  7 04:58:19 670924ea5755 kernel: br-dae380e46a3d: port 2(veth56947f6) entered disabled state
+Apr  7 04:58:19 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:22 670924ea5755 kernel: br-dae380e46a3d: port 2(veth83f3eac) entered blocking state
+Apr  7 04:58:22 670924ea5755 kernel: br-dae380e46a3d: port 2(veth83f3eac) entered disabled state
+Apr  7 04:58:22 670924ea5755 kernel: veth83f3eac: entered allmulticast mode
+Apr  7 04:58:22 670924ea5755 kernel: veth83f3eac: entered promiscuous mode
+Apr  7 04:58:22 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:22 670924ea5755 kernel: eth0: renamed from veth7b1b19f
+Apr  7 04:58:22 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:22 670924ea5755 kernel: br-dae380e46a3d: port 2(veth83f3eac) entered blocking state
+Apr  7 04:58:22 670924ea5755 kernel: br-dae380e46a3d: port 2(veth83f3eac) entered forwarding state
+Apr  7 04:58:22 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:31 670924ea5755 kernel: br-dae380e46a3d: port 2(veth83f3eac) entered disabled state
+Apr  7 04:58:31 670924ea5755 kernel: veth7b1b19f: renamed from eth0
+Apr  7 04:58:31 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:31 670924ea5755 kernel: br-dae380e46a3d: port 2(veth83f3eac) entered disabled state
+Apr  7 04:58:31 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:31 670924ea5755 kernel: veth83f3eac (unregistering): left allmulticast mode
+Apr  7 04:58:31 670924ea5755 kernel: veth83f3eac (unregistering): left promiscuous mode
+Apr  7 04:58:31 670924ea5755 kernel: br-dae380e46a3d: port 2(veth83f3eac) entered disabled state
+Apr  7 04:58:31 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:38 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf67f640) entered blocking state
+Apr  7 04:58:38 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf67f640) entered disabled state
+Apr  7 04:58:38 670924ea5755 kernel: vethf67f640: entered allmulticast mode
+Apr  7 04:58:38 670924ea5755 kernel: vethf67f640: entered promiscuous mode
+Apr  7 04:58:38 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:38 670924ea5755 kernel: eth0: renamed from vethc5bbac0
+Apr  7 04:58:38 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:38 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf67f640) entered blocking state
+Apr  7 04:58:38 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf67f640) entered forwarding state
+Apr  7 04:58:38 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:47 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf67f640) entered disabled state
+Apr  7 04:58:47 670924ea5755 kernel: vethc5bbac0: renamed from eth0
+Apr  7 04:58:47 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:58:47 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf67f640) entered disabled state
+Apr  7 04:58:47 670924ea5755 kernel: vethf67f640 (unregistering): left allmulticast mode
+Apr  7 04:58:47 670924ea5755 kernel: vethf67f640 (unregistering): left promiscuous mode
+Apr  7 04:58:47 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf67f640) entered disabled state
+Apr  7 04:58:47 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:59:00 670924ea5755 kernel: br-dae380e46a3d: port 2(veth498bc20) entered blocking state
+Apr  7 04:59:00 670924ea5755 kernel: br-dae380e46a3d: port 2(veth498bc20) entered disabled state
+Apr  7 04:59:00 670924ea5755 kernel: veth498bc20: entered allmulticast mode
+Apr  7 04:59:00 670924ea5755 kernel: veth498bc20: entered promiscuous mode
+Apr  7 04:59:00 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:59:00 670924ea5755 kernel: eth0: renamed from veth90afca8
+Apr  7 04:59:00 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:59:00 670924ea5755 kernel: br-dae380e46a3d: port 2(veth498bc20) entered blocking state
+Apr  7 04:59:00 670924ea5755 kernel: br-dae380e46a3d: port 2(veth498bc20) entered forwarding state
+Apr  7 04:59:00 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:59:10 670924ea5755 kernel: veth90afca8: renamed from eth0
+Apr  7 04:59:10 670924ea5755 kernel: br-dae380e46a3d: port 2(veth498bc20) entered disabled state
+Apr  7 04:59:10 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:59:10 670924ea5755 kernel: br-dae380e46a3d: port 2(veth498bc20) entered disabled state
+Apr  7 04:59:10 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:59:10 670924ea5755 kernel: veth498bc20 (unregistering): left allmulticast mode
+Apr  7 04:59:10 670924ea5755 kernel: veth498bc20 (unregistering): left promiscuous mode
+Apr  7 04:59:10 670924ea5755 kernel: br-dae380e46a3d: port 2(veth498bc20) entered disabled state
+Apr  7 04:59:10 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:59:35 670924ea5755 kernel: br-dae380e46a3d: port 2(veth40c3053) entered blocking state
+Apr  7 04:59:35 670924ea5755 kernel: br-dae380e46a3d: port 2(veth40c3053) entered disabled state
+Apr  7 04:59:35 670924ea5755 kernel: veth40c3053: entered allmulticast mode
+Apr  7 04:59:35 670924ea5755 kernel: veth40c3053: entered promiscuous mode
+Apr  7 04:59:35 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:59:36 670924ea5755 kernel: eth0: renamed from veth7cc1dff
+Apr  7 04:59:36 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:59:36 670924ea5755 kernel: br-dae380e46a3d: port 2(veth40c3053) entered blocking state
+Apr  7 04:59:36 670924ea5755 kernel: br-dae380e46a3d: port 2(veth40c3053) entered forwarding state
+Apr  7 04:59:36 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:59:45 670924ea5755 kernel: br-dae380e46a3d: port 2(veth40c3053) entered disabled state
+Apr  7 04:59:45 670924ea5755 kernel: veth7cc1dff: renamed from eth0
+Apr  7 04:59:45 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:59:45 670924ea5755 kernel: br-dae380e46a3d: port 2(veth40c3053) entered disabled state
+Apr  7 04:59:45 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 04:59:45 670924ea5755 kernel: veth40c3053 (unregistering): left allmulticast mode
+Apr  7 04:59:45 670924ea5755 kernel: veth40c3053 (unregistering): left promiscuous mode
+Apr  7 04:59:45 670924ea5755 kernel: br-dae380e46a3d: port 2(veth40c3053) entered disabled state
+Apr  7 04:59:45 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:00:37 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf66cd1c) entered blocking state
+Apr  7 05:00:37 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf66cd1c) entered disabled state
+Apr  7 05:00:37 670924ea5755 kernel: vethf66cd1c: entered allmulticast mode
+Apr  7 05:00:37 670924ea5755 kernel: vethf66cd1c: entered promiscuous mode
+Apr  7 05:00:37 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:00:37 670924ea5755 kernel: eth0: renamed from vethfeedd29
+Apr  7 05:00:37 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:00:37 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf66cd1c) entered blocking state
+Apr  7 05:00:37 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf66cd1c) entered forwarding state
+Apr  7 05:00:37 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:00:44 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf66cd1c) entered disabled state
+Apr  7 05:00:44 670924ea5755 kernel: vethfeedd29: renamed from eth0
+Apr  7 05:00:44 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:00:44 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf66cd1c) entered disabled state
+Apr  7 05:00:44 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:00:44 670924ea5755 kernel: vethf66cd1c (unregistering): left allmulticast mode
+Apr  7 05:00:44 670924ea5755 kernel: vethf66cd1c (unregistering): left promiscuous mode
+Apr  7 05:00:44 670924ea5755 kernel: br-dae380e46a3d: port 2(vethf66cd1c) entered disabled state
+Apr  7 05:00:44 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:01:44 670924ea5755 kernel: br-dae380e46a3d: port 2(veth3eca779) entered blocking state
+Apr  7 05:01:44 670924ea5755 kernel: br-dae380e46a3d: port 2(veth3eca779) entered disabled state
+Apr  7 05:01:44 670924ea5755 kernel: veth3eca779: entered allmulticast mode
+Apr  7 05:01:44 670924ea5755 kernel: veth3eca779: entered promiscuous mode
+Apr  7 05:01:44 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:01:45 670924ea5755 kernel: eth0: renamed from veth55f9b42
+Apr  7 05:01:45 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:01:45 670924ea5755 kernel: br-dae380e46a3d: port 2(veth3eca779) entered blocking state
+Apr  7 05:01:45 670924ea5755 kernel: br-dae380e46a3d: port 2(veth3eca779) entered forwarding state
+Apr  7 05:01:45 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:01:51 670924ea5755 kernel: br-dae380e46a3d: port 2(veth3eca779) entered disabled state
+Apr  7 05:01:51 670924ea5755 kernel: veth55f9b42: renamed from eth0
+Apr  7 05:01:51 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:01:51 670924ea5755 kernel: br-dae380e46a3d: port 2(veth3eca779) entered disabled state
+Apr  7 05:01:51 670924ea5755 kernel: veth3eca779 (unregistering): left allmulticast mode
+Apr  7 05:01:51 670924ea5755 kernel: veth3eca779 (unregistering): left promiscuous mode
+Apr  7 05:01:51 670924ea5755 kernel: br-dae380e46a3d: port 2(veth3eca779) entered disabled state
+Apr  7 05:01:51 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:02:51 670924ea5755 kernel: br-dae380e46a3d: port 2(vethb4080b5) entered blocking state
+Apr  7 05:02:51 670924ea5755 kernel: br-dae380e46a3d: port 2(vethb4080b5) entered disabled state
+Apr  7 05:02:51 670924ea5755 kernel: vethb4080b5: entered allmulticast mode
+Apr  7 05:02:51 670924ea5755 kernel: vethb4080b5: entered promiscuous mode
+Apr  7 05:02:51 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:02:51 670924ea5755 kernel: eth0: renamed from veth662ccb4
+Apr  7 05:02:51 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:02:51 670924ea5755 kernel: br-dae380e46a3d: port 2(vethb4080b5) entered blocking state
+Apr  7 05:02:51 670924ea5755 kernel: br-dae380e46a3d: port 2(vethb4080b5) entered forwarding state
+Apr  7 05:02:51 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:02:57 670924ea5755 kernel: br-dae380e46a3d: port 2(vethb4080b5) entered disabled state
+Apr  7 05:02:57 670924ea5755 kernel: veth662ccb4: renamed from eth0
+Apr  7 05:02:57 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:02:57 670924ea5755 kernel: br-dae380e46a3d: port 2(vethb4080b5) entered disabled state
+Apr  7 05:02:57 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:02:57 670924ea5755 kernel: vethb4080b5 (unregistering): left allmulticast mode
+Apr  7 05:02:57 670924ea5755 kernel: vethb4080b5 (unregistering): left promiscuous mode
+Apr  7 05:02:57 670924ea5755 kernel: br-dae380e46a3d: port 2(vethb4080b5) entered disabled state
+Apr  7 05:02:57 670924ea5755 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:03:09 670924ea5755 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 05:03:16 a212637bda57 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 05:03:16 a212637bda57 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:03:17 a212637bda57 syslog-ng[1]: Syslog connection accepted; fd='22', client='AF_INET(172.18.0.1:57462)', local='AF_INET(0.0.0.0:514)'
+Apr  7 05:03:17 a212637bda57 syslog-ng[1]: Syslog connection closed; fd='22', client='AF_INET(172.18.0.1:57462)', local='AF_INET(0.0.0.0:514)'
+Apr  7 05:03:51 a212637bda57 syslog-ng[1]: Syslog connection accepted; fd='20', client='AF_INET(172.18.0.3:58042)', local='AF_INET(0.0.0.0:514)'
+Apr  7 05:03:51 c3cedbdd9511 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Apr  7 05:03:51 c3cedbdd9511 rsyslogd: activation of module imklog failed [v8.2312.0 try https://www.rsyslog.com/e/2145 ]
+Apr  7 05:03:51 c3cedbdd9511 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="3674" x-info="https://www.rsyslog.com"] start
+Apr  7 05:04:08 c3cedbdd9511 root: Test message from rsyslog-client
+Apr  7 05:50:38 a212637bda57 kernel: Hangcheck: hangcheck value past margin!
+Apr  7 05:50:38 a212637bda57 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:52:44 a212637bda57 syslog-ng[1]: Syslog connection closed; fd='20', client='AF_INET(172.18.0.3:58042)', local='AF_INET(0.0.0.0:514)'
+Apr  7 05:52:44 a212637bda57 kernel: br-592cd194c7a6: port 2(veth686109e) entered disabled state
+Apr  7 05:52:44 a212637bda57 kernel: veth554e1cf: renamed from eth0
+Apr  7 05:52:44 a212637bda57 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:52:44 a212637bda57 kernel: br-592cd194c7a6: port 2(veth686109e) entered disabled state
+Apr  7 05:52:44 a212637bda57 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:52:44 a212637bda57 kernel: veth686109e (unregistering): left allmulticast mode
+Apr  7 05:52:44 a212637bda57 kernel: veth686109e (unregistering): left promiscuous mode
+Apr  7 05:52:44 a212637bda57 kernel: br-592cd194c7a6: port 2(veth686109e) entered disabled state
+Apr  7 05:52:44 a212637bda57 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 05:52:44 a212637bda57 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 09:10:16 73285f652b81 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 09:10:16 73285f652b81 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 09:11:35 73285f652b81 syslog-ng[1]: Syslog connection accepted; fd='20', client='AF_INET(172.18.0.3:45984)', local='AF_INET(0.0.0.0:514)'
+Apr  7 09:11:35 0e3d114ac6be rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Apr  7 09:11:35 0e3d114ac6be rsyslogd: activation of module imklog failed [v8.2312.0 try https://www.rsyslog.com/e/2145 ]
+Apr  7 09:11:35 0e3d114ac6be rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="3680" x-info="https://www.rsyslog.com"] start
+Apr  7 09:12:14 0e3d114ac6be root: Test message from rsyslog-client
+Apr  7 09:15:30 73285f652b81 syslog-ng[1]: Syslog connection accepted; fd='22', client='AF_INET(172.18.0.1:60744)', local='AF_INET(0.0.0.0:514)'
+Apr  7 09:15:30 172.18.0.1 Final test TCP
+Apr  7 09:15:41 73285f652b81 syslog-ng[1]: Syslog connection closed; fd='22', client='AF_INET(172.18.0.1:60744)', local='AF_INET(0.0.0.0:514)'
+Apr  7 09:15:41 172.18.0.1 Final test UDP
+Apr  7 09:30:48 73285f652b81 syslog-ng[1]: Syslog connection closed; fd='20', client='AF_INET(172.18.0.3:45984)', local='AF_INET(0.0.0.0:514)'
+Apr  7 09:30:48 73285f652b81 kernel: br-4ddacdeb1c5f: port 2(veth44a5a59) entered disabled state
+Apr  7 09:30:48 73285f652b81 kernel: vethbef70b3: renamed from eth0
+Apr  7 09:30:48 73285f652b81 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 09:30:48 73285f652b81 kernel: br-4ddacdeb1c5f: port 2(veth44a5a59) entered disabled state
+Apr  7 09:30:48 73285f652b81 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 09:30:48 73285f652b81 kernel: veth44a5a59 (unregistering): left allmulticast mode
+Apr  7 09:30:48 73285f652b81 kernel: veth44a5a59 (unregistering): left promiscuous mode
+Apr  7 09:30:48 73285f652b81 kernel: br-4ddacdeb1c5f: port 2(veth44a5a59) entered disabled state
+Apr  7 09:30:48 73285f652b81 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 09:30:48 73285f652b81 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 19:11:33 e4419a06c2c7 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 19:11:33 e4419a06c2c7 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 19:12:15 e4419a06c2c7 syslog-ng[1]: Syslog connection accepted; fd='20', client='AF_INET(172.18.0.3:38276)', local='AF_INET(0.0.0.0:514)'
+Apr  7 19:12:15 bec7e4dfb891 rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Operation not permitted.
+Apr  7 19:12:15 bec7e4dfb891 rsyslogd: activation of module imklog failed [v8.2312.0 try https://www.rsyslog.com/e/2145 ]
+Apr  7 19:12:15 bec7e4dfb891 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="3680" x-info="https://www.rsyslog.com"] start
+Apr  7 19:29:32 e4419a06c2c7 syslog-ng[1]: Syslog connection closed; fd='20', client='AF_INET(172.18.0.3:38276)', local='AF_INET(0.0.0.0:514)'
+Apr  7 19:29:32 e4419a06c2c7 kernel: br-aa3d6be5cbe6: port 2(vethc18a73f) entered disabled state
+Apr  7 19:29:32 e4419a06c2c7 kernel: veth7e4a4ad: renamed from eth0
+Apr  7 19:29:32 e4419a06c2c7 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 19:29:32 e4419a06c2c7 kernel: br-aa3d6be5cbe6: port 2(vethc18a73f) entered disabled state
+Apr  7 19:29:32 e4419a06c2c7 kernel: vethc18a73f (unregistering): left allmulticast mode
+Apr  7 19:29:32 e4419a06c2c7 kernel: vethc18a73f (unregistering): left promiscuous mode
+Apr  7 19:29:32 e4419a06c2c7 kernel: br-aa3d6be5cbe6: port 2(vethc18a73f) entered disabled state
+Apr  7 19:29:32 e4419a06c2c7 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 19:29:32 e4419a06c2c7 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 19:29:44 d95801e0fc22 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 19:35:30 d95801e0fc22 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 19:35:47 e283c24fed56 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 19:40:34 e283c24fed56 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 19:40:37 695a36a3ff10 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 19:40:54 695a36a3ff10 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 19:41:02 3c6bfd748b60 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 19:45:27 3c6bfd748b60 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 19:47:18 3f93a38020f5 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 19:56:28 3f93a38020f5 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 19:56:30 27d8fccb73c9 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 19:56:30 27d8fccb73c9 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 19:56:30 27d8fccb73c9 syslog-ng[1]: Syslog connection accepted; fd='22', client='AF_INET(172.18.0.1:58758)', local='AF_INET(0.0.0.0:514)'
+Apr  7 19:56:30 27d8fccb73c9 syslog-ng[1]: Syslog connection closed; fd='22', client='AF_INET(172.18.0.1:58758)', local='AF_INET(0.0.0.0:514)'
+Apr  7 20:04:09 27d8fccb73c9 kernel: br-4836fcb29ad8: port 2(vethc7d3c02) entered disabled state
+Apr  7 20:04:09 27d8fccb73c9 kernel: vethb86766f: renamed from eth0
+Apr  7 20:04:09 27d8fccb73c9 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:04:09 27d8fccb73c9 kernel: br-4836fcb29ad8: port 2(vethc7d3c02) entered disabled state
+Apr  7 20:04:09 27d8fccb73c9 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:04:09 27d8fccb73c9 kernel: vethc7d3c02 (unregistering): left allmulticast mode
+Apr  7 20:04:09 27d8fccb73c9 kernel: vethc7d3c02 (unregistering): left promiscuous mode
+Apr  7 20:04:09 27d8fccb73c9 kernel: br-4836fcb29ad8: port 2(vethc7d3c02) entered disabled state
+Apr  7 20:04:09 27d8fccb73c9 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:04:09 27d8fccb73c9 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 20:04:11 e36d71500a20 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 20:04:11 e36d71500a20 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:12:50 e36d71500a20 kernel: br-f259f52c5732: port 2(veth456c315) entered disabled state
+Apr  7 20:12:50 e36d71500a20 kernel: vethfaa5d57: renamed from eth0
+Apr  7 20:12:50 e36d71500a20 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:12:50 e36d71500a20 kernel: br-f259f52c5732: port 2(veth456c315) entered disabled state
+Apr  7 20:12:50 e36d71500a20 kernel: veth456c315 (unregistering): left allmulticast mode
+Apr  7 20:12:50 e36d71500a20 kernel: veth456c315 (unregistering): left promiscuous mode
+Apr  7 20:12:50 e36d71500a20 kernel: br-f259f52c5732: port 2(veth456c315) entered disabled state
+Apr  7 20:12:50 e36d71500a20 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:12:50 e36d71500a20 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 20:12:51 5805225aa053 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 20:12:51 5805225aa053 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:14:22 5805225aa053 syslog-ng[1]: Syslog connection accepted; fd='20', client='AF_INET(172.18.0.3:57798)', local='AF_INET(0.0.0.0:514)'
+Apr  7 20:14:22 1710e91ba97a root: Test UDP message
+Apr  7 20:14:22 1710e91ba97a rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2312.0 try https://www.rsyslog.com/e/2359 ]
+Apr  7 20:16:45 5805225aa053 syslog-ng[1]: Syslog connection closed; fd='20', client='AF_INET(172.18.0.3:57798)', local='AF_INET(0.0.0.0:514)'
+Apr  7 20:16:45 5805225aa053 kernel: br-bcfa9033098c: port 2(vethcf06546) entered disabled state
+Apr  7 20:16:45 5805225aa053 kernel: veth05c94b1: renamed from eth0
+Apr  7 20:16:45 5805225aa053 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:16:45 5805225aa053 kernel: br-bcfa9033098c: port 2(vethcf06546) entered disabled state
+Apr  7 20:16:45 5805225aa053 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:16:45 5805225aa053 kernel: vethcf06546 (unregistering): left allmulticast mode
+Apr  7 20:16:45 5805225aa053 kernel: vethcf06546 (unregistering): left promiscuous mode
+Apr  7 20:16:45 5805225aa053 kernel: br-bcfa9033098c: port 2(vethcf06546) entered disabled state
+Apr  7 20:16:45 5805225aa053 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:16:45 5805225aa053 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 20:16:47 ae24e23afe10 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 20:16:47 ae24e23afe10 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:18:54 ae24e23afe10 syslog-ng[1]: Syslog connection accepted; fd='20', client='AF_INET(172.18.0.3:56960)', local='AF_INET(0.0.0.0:514)'
+Apr  7 20:18:54 4dce70270c9f root: Test UDP message1
+Apr  7 20:18:54 4dce70270c9f rsyslogd: action 'action-0-builtin:omfwd' resumed (module 'builtin:omfwd') [v8.2312.0 try https://www.rsyslog.com/e/2359 ]
+Apr  7 20:26:54 ae24e23afe10 syslog-ng[1]: Syslog connection closed; fd='20', client='AF_INET(172.18.0.3:56960)', local='AF_INET(0.0.0.0:514)'
+Apr  7 20:26:54 ae24e23afe10 kernel: br-2384048c44fe: port 2(veth6aff897) entered disabled state
+Apr  7 20:26:54 ae24e23afe10 kernel: veth67b61b7: renamed from eth0
+Apr  7 20:26:54 ae24e23afe10 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:26:54 ae24e23afe10 kernel: br-2384048c44fe: port 2(veth6aff897) entered disabled state
+Apr  7 20:26:54 ae24e23afe10 kernel: veth6aff897 (unregistering): left allmulticast mode
+Apr  7 20:26:54 ae24e23afe10 kernel: veth6aff897 (unregistering): left promiscuous mode
+Apr  7 20:26:54 ae24e23afe10 kernel: br-2384048c44fe: port 2(veth6aff897) entered disabled state
+Apr  7 20:26:54 ae24e23afe10 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:26:54 ae24e23afe10 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 20:26:56 92b9593f1d8c syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 20:26:56 92b9593f1d8c syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:26:56 92b9593f1d8c syslog-ng[1]: Syslog connection accepted; fd='22', client='AF_INET(172.18.0.1:58020)', local='AF_INET(0.0.0.0:514)'
+Apr  7 20:26:56 92b9593f1d8c syslog-ng[1]: Syslog connection closed; fd='22', client='AF_INET(172.18.0.1:58020)', local='AF_INET(0.0.0.0:514)'
+Apr  7 20:29:49 92b9593f1d8c syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 20:29:51 49c73fde521a syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 20:29:51 49c73fde521a syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:32:03 49c73fde521a syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 20:38:41 d140d3ad2533 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 20:38:41 d140d3ad2533 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:43:07 d140d3ad2533 kernel: br-a1a3774ff57c: port 2(vethb504515) entered disabled state
+Apr  7 20:43:07 d140d3ad2533 kernel: veth7cbaa05: renamed from eth0
+Apr  7 20:43:07 d140d3ad2533 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:43:07 d140d3ad2533 kernel: br-a1a3774ff57c: port 2(vethb504515) entered disabled state
+Apr  7 20:43:07 d140d3ad2533 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:43:07 d140d3ad2533 kernel: vethb504515 (unregistering): left allmulticast mode
+Apr  7 20:43:07 d140d3ad2533 kernel: vethb504515 (unregistering): left promiscuous mode
+Apr  7 20:43:07 d140d3ad2533 kernel: br-a1a3774ff57c: port 2(vethb504515) entered disabled state
+Apr  7 20:43:07 d140d3ad2533 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:43:07 d140d3ad2533 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 20:43:09 d0cf2f1aa177 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 20:43:09 d0cf2f1aa177 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:44:57 d0cf2f1aa177 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 20:44:59 8af2df0f4917 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 20:44:59 8af2df0f4917 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:47:58 8af2df0f4917 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 20:48:00 c17faf8310c6 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 20:48:00 c17faf8310c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:48:05 c17faf8310c6 kernel: br-72eb565db03e: port 2(veth97fe6b3) entered blocking state
+Apr  7 20:48:05 c17faf8310c6 kernel: br-72eb565db03e: port 2(veth97fe6b3) entered disabled state
+Apr  7 20:48:05 c17faf8310c6 kernel: veth97fe6b3: entered allmulticast mode
+Apr  7 20:48:05 c17faf8310c6 kernel: veth97fe6b3: entered promiscuous mode
+Apr  7 20:48:05 c17faf8310c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:48:05 c17faf8310c6 kernel: eth0: renamed from vetheac6ff1
+Apr  7 20:48:05 c17faf8310c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:48:05 c17faf8310c6 kernel: br-72eb565db03e: port 2(veth97fe6b3) entered blocking state
+Apr  7 20:48:05 c17faf8310c6 kernel: br-72eb565db03e: port 2(veth97fe6b3) entered forwarding state
+Apr  7 20:48:05 c17faf8310c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:48:10 56cab522991e rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start
+Apr  7 20:49:13 56cab522991e root: Final UDP test message
+Apr  7 20:51:15 56cab522991e root: Hello World
+Apr  7 20:56:41 c17faf8310c6 kernel: br-72eb565db03e: port 2(veth97fe6b3) entered disabled state
+Apr  7 20:56:41 c17faf8310c6 kernel: vetheac6ff1: renamed from eth0
+Apr  7 20:56:41 c17faf8310c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:56:41 c17faf8310c6 kernel: br-72eb565db03e: port 2(veth97fe6b3) entered disabled state
+Apr  7 20:56:41 c17faf8310c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:56:41 c17faf8310c6 kernel: veth97fe6b3 (unregistering): left allmulticast mode
+Apr  7 20:56:41 c17faf8310c6 kernel: veth97fe6b3 (unregistering): left promiscuous mode
+Apr  7 20:56:41 c17faf8310c6 kernel: br-72eb565db03e: port 2(veth97fe6b3) entered disabled state
+Apr  7 20:56:41 c17faf8310c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:56:41 c17faf8310c6 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  7 20:56:42 8af189ffebe3 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  7 20:56:42 8af189ffebe3 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:56:48 8af189ffebe3 kernel: br-d9523f7256c1: port 2(vethae1ae05) entered blocking state
+Apr  7 20:56:48 8af189ffebe3 kernel: br-d9523f7256c1: port 2(vethae1ae05) entered disabled state
+Apr  7 20:56:48 8af189ffebe3 kernel: vethae1ae05: entered allmulticast mode
+Apr  7 20:56:48 8af189ffebe3 kernel: vethae1ae05: entered promiscuous mode
+Apr  7 20:56:48 8af189ffebe3 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:56:48 8af189ffebe3 kernel: eth0: renamed from veth588e13b
+Apr  7 20:56:48 8af189ffebe3 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:56:48 8af189ffebe3 kernel: br-d9523f7256c1: port 2(vethae1ae05) entered blocking state
+Apr  7 20:56:48 8af189ffebe3 kernel: br-d9523f7256c1: port 2(vethae1ae05) entered forwarding state
+Apr  7 20:56:48 8af189ffebe3 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 20:56:53 1d6871813930 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start
+Apr  7 20:57:53 1d6871813930 root: Hello from client
+Apr  7 21:39:05 8af189ffebe3 kernel: br-d9523f7256c1: port 2(vethae1ae05) entered disabled state
+Apr  7 21:39:05 8af189ffebe3 kernel: veth588e13b: renamed from eth0
+Apr  7 21:39:05 8af189ffebe3 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 21:39:05 8af189ffebe3 kernel: br-d9523f7256c1: port 2(vethae1ae05) entered disabled state
+Apr  7 21:39:05 8af189ffebe3 kernel: vethae1ae05 (unregistering): left allmulticast mode
+Apr  7 21:39:05 8af189ffebe3 kernel: vethae1ae05 (unregistering): left promiscuous mode
+Apr  7 21:39:05 8af189ffebe3 kernel: br-d9523f7256c1: port 2(vethae1ae05) entered disabled state
+Apr  7 21:39:05 8af189ffebe3 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  7 21:39:05 8af189ffebe3 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  8 09:36:34 329386c802c6 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  8 09:36:34 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 09:36:39 329386c802c6 kernel: br-584273b19a14: port 2(veth7f9cee5) entered blocking state
+Apr  8 09:36:39 329386c802c6 kernel: br-584273b19a14: port 2(veth7f9cee5) entered disabled state
+Apr  8 09:36:39 329386c802c6 kernel: veth7f9cee5: entered allmulticast mode
+Apr  8 09:36:39 329386c802c6 kernel: veth7f9cee5: entered promiscuous mode
+Apr  8 09:36:39 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 09:36:39 329386c802c6 kernel: eth0: renamed from veth12e89a8
+Apr  8 09:36:39 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 09:36:39 329386c802c6 kernel: br-584273b19a14: port 2(veth7f9cee5) entered blocking state
+Apr  8 09:36:39 329386c802c6 kernel: br-584273b19a14: port 2(veth7f9cee5) entered forwarding state
+Apr  8 09:36:39 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 09:36:44 3ea1fc9081bb rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start
+Apr  8 09:40:52 3ea1fc9081bb root: Hello  message - Tue Apr  8 03:10:52 PM IST 2025
+Apr  8 09:41:44 3ea1fc9081bb root: Test UDP message1
+Apr  8 09:49:50 3ea1fc9081bb root: Hello  message1 - Tue Apr  8 03:19:50 PM IST 2025
+Apr  8 09:54:18 329386c802c6 root[1251]: Test message
+Apr  8 10:01:01 329386c802c6 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  8 10:01:01 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:06 329386c802c6 kernel: br-584273b19a14: port 1(veth6d8a4b8) entered disabled state
+Apr  8 10:01:06 329386c802c6 kernel: vethf1687f5: renamed from eth0
+Apr  8 10:01:06 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:06 329386c802c6 kernel: br-584273b19a14: port 1(veth6d8a4b8) entered disabled state
+Apr  8 10:01:06 329386c802c6 kernel: veth6d8a4b8 (unregistering): left allmulticast mode
+Apr  8 10:01:06 329386c802c6 kernel: veth6d8a4b8 (unregistering): left promiscuous mode
+Apr  8 10:01:06 329386c802c6 kernel: br-584273b19a14: port 1(veth6d8a4b8) entered disabled state
+Apr  8 10:01:06 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:06 329386c802c6 kernel: br-584273b19a14: port 1(vethc6efb90) entered blocking state
+Apr  8 10:01:06 329386c802c6 kernel: br-584273b19a14: port 1(vethc6efb90) entered disabled state
+Apr  8 10:01:06 329386c802c6 kernel: vethc6efb90: entered allmulticast mode
+Apr  8 10:01:06 329386c802c6 kernel: vethc6efb90: entered promiscuous mode
+Apr  8 10:01:06 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:06 329386c802c6 kernel: eth0: renamed from veth180566b
+Apr  8 10:01:06 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:06 329386c802c6 kernel: br-584273b19a14: port 1(vethc6efb90) entered blocking state
+Apr  8 10:01:06 329386c802c6 kernel: br-584273b19a14: port 1(vethc6efb90) entered forwarding state
+Apr  8 10:01:06 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:11 329386c802c6 kernel: br-584273b19a14: port 1(vethc6efb90) entered disabled state
+Apr  8 10:01:11 329386c802c6 kernel: veth180566b: renamed from eth0
+Apr  8 10:01:11 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:11 329386c802c6 kernel: br-584273b19a14: port 1(vethc6efb90) entered disabled state
+Apr  8 10:01:11 329386c802c6 kernel: vethc6efb90 (unregistering): left allmulticast mode
+Apr  8 10:01:11 329386c802c6 kernel: vethc6efb90 (unregistering): left promiscuous mode
+Apr  8 10:01:11 329386c802c6 kernel: br-584273b19a14: port 1(vethc6efb90) entered disabled state
+Apr  8 10:01:11 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:11 329386c802c6 kernel: br-584273b19a14: port 1(vethd777f2f) entered blocking state
+Apr  8 10:01:11 329386c802c6 kernel: br-584273b19a14: port 1(vethd777f2f) entered disabled state
+Apr  8 10:01:11 329386c802c6 kernel: vethd777f2f: entered allmulticast mode
+Apr  8 10:01:11 329386c802c6 kernel: vethd777f2f: entered promiscuous mode
+Apr  8 10:01:11 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:11 329386c802c6 kernel: eth0: renamed from vethc120e63
+Apr  8 10:01:11 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:11 329386c802c6 kernel: br-584273b19a14: port 1(vethd777f2f) entered blocking state
+Apr  8 10:01:11 329386c802c6 kernel: br-584273b19a14: port 1(vethd777f2f) entered forwarding state
+Apr  8 10:01:11 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:16 329386c802c6 kernel: br-584273b19a14: port 1(vethd777f2f) entered disabled state
+Apr  8 10:01:16 329386c802c6 kernel: vethc120e63: renamed from eth0
+Apr  8 10:01:16 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:17 329386c802c6 kernel: br-584273b19a14: port 1(vethd777f2f) entered disabled state
+Apr  8 10:01:17 329386c802c6 kernel: vethd777f2f (unregistering): left allmulticast mode
+Apr  8 10:01:17 329386c802c6 kernel: vethd777f2f (unregistering): left promiscuous mode
+Apr  8 10:01:17 329386c802c6 kernel: br-584273b19a14: port 1(vethd777f2f) entered disabled state
+Apr  8 10:01:17 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:17 329386c802c6 kernel: br-584273b19a14: port 1(veth49313c7) entered blocking state
+Apr  8 10:01:17 329386c802c6 kernel: br-584273b19a14: port 1(veth49313c7) entered disabled state
+Apr  8 10:01:17 329386c802c6 kernel: veth49313c7: entered allmulticast mode
+Apr  8 10:01:17 329386c802c6 kernel: veth49313c7: entered promiscuous mode
+Apr  8 10:01:17 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:17 329386c802c6 kernel: eth0: renamed from veth3257e91
+Apr  8 10:01:17 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:17 329386c802c6 kernel: br-584273b19a14: port 1(veth49313c7) entered blocking state
+Apr  8 10:01:17 329386c802c6 kernel: br-584273b19a14: port 1(veth49313c7) entered forwarding state
+Apr  8 10:01:17 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:22 329386c802c6 kernel: br-584273b19a14: port 1(veth49313c7) entered disabled state
+Apr  8 10:01:22 329386c802c6 kernel: veth3257e91: renamed from eth0
+Apr  8 10:01:22 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:22 329386c802c6 kernel: br-584273b19a14: port 1(veth49313c7) entered disabled state
+Apr  8 10:01:22 329386c802c6 kernel: veth49313c7 (unregistering): left allmulticast mode
+Apr  8 10:01:22 329386c802c6 kernel: veth49313c7 (unregistering): left promiscuous mode
+Apr  8 10:01:22 329386c802c6 kernel: br-584273b19a14: port 1(veth49313c7) entered disabled state
+Apr  8 10:01:22 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:23 329386c802c6 kernel: br-584273b19a14: port 1(vethb28e3bc) entered blocking state
+Apr  8 10:01:23 329386c802c6 kernel: br-584273b19a14: port 1(vethb28e3bc) entered disabled state
+Apr  8 10:01:23 329386c802c6 kernel: vethb28e3bc: entered allmulticast mode
+Apr  8 10:01:23 329386c802c6 kernel: vethb28e3bc: entered promiscuous mode
+Apr  8 10:01:23 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:23 329386c802c6 kernel: eth0: renamed from vethe0b11bb
+Apr  8 10:01:23 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:23 329386c802c6 kernel: br-584273b19a14: port 1(vethb28e3bc) entered blocking state
+Apr  8 10:01:23 329386c802c6 kernel: br-584273b19a14: port 1(vethb28e3bc) entered forwarding state
+Apr  8 10:01:23 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:28 329386c802c6 kernel: br-584273b19a14: port 1(vethb28e3bc) entered disabled state
+Apr  8 10:01:28 329386c802c6 kernel: vethe0b11bb: renamed from eth0
+Apr  8 10:01:28 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:28 329386c802c6 kernel: br-584273b19a14: port 1(vethb28e3bc) entered disabled state
+Apr  8 10:01:28 329386c802c6 kernel: vethb28e3bc (unregistering): left allmulticast mode
+Apr  8 10:01:28 329386c802c6 kernel: vethb28e3bc (unregistering): left promiscuous mode
+Apr  8 10:01:28 329386c802c6 kernel: br-584273b19a14: port 1(vethb28e3bc) entered disabled state
+Apr  8 10:01:28 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:30 329386c802c6 kernel: br-584273b19a14: port 1(veth36096b3) entered blocking state
+Apr  8 10:01:30 329386c802c6 kernel: br-584273b19a14: port 1(veth36096b3) entered disabled state
+Apr  8 10:01:30 329386c802c6 kernel: veth36096b3: entered allmulticast mode
+Apr  8 10:01:30 329386c802c6 kernel: veth36096b3: entered promiscuous mode
+Apr  8 10:01:30 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:30 329386c802c6 kernel: eth0: renamed from vethd86c1ee
+Apr  8 10:01:30 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:30 329386c802c6 kernel: br-584273b19a14: port 1(veth36096b3) entered blocking state
+Apr  8 10:01:30 329386c802c6 kernel: br-584273b19a14: port 1(veth36096b3) entered forwarding state
+Apr  8 10:01:30 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:35 329386c802c6 kernel: br-584273b19a14: port 1(veth36096b3) entered disabled state
+Apr  8 10:01:35 329386c802c6 kernel: vethd86c1ee: renamed from eth0
+Apr  8 10:01:35 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:35 329386c802c6 kernel: br-584273b19a14: port 1(veth36096b3) entered disabled state
+Apr  8 10:01:35 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:35 329386c802c6 kernel: veth36096b3 (unregistering): left allmulticast mode
+Apr  8 10:01:35 329386c802c6 kernel: veth36096b3 (unregistering): left promiscuous mode
+Apr  8 10:01:35 329386c802c6 kernel: br-584273b19a14: port 1(veth36096b3) entered disabled state
+Apr  8 10:01:35 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:38 329386c802c6 kernel: br-584273b19a14: port 1(veth0d1f8dc) entered blocking state
+Apr  8 10:01:38 329386c802c6 kernel: br-584273b19a14: port 1(veth0d1f8dc) entered disabled state
+Apr  8 10:01:38 329386c802c6 kernel: veth0d1f8dc: entered allmulticast mode
+Apr  8 10:01:38 329386c802c6 kernel: veth0d1f8dc: entered promiscuous mode
+Apr  8 10:01:38 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:39 329386c802c6 kernel: eth0: renamed from veth0b020a9
+Apr  8 10:01:39 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:39 329386c802c6 kernel: br-584273b19a14: port 1(veth0d1f8dc) entered blocking state
+Apr  8 10:01:39 329386c802c6 kernel: br-584273b19a14: port 1(veth0d1f8dc) entered forwarding state
+Apr  8 10:01:39 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:44 329386c802c6 kernel: br-584273b19a14: port 1(veth0d1f8dc) entered disabled state
+Apr  8 10:01:44 329386c802c6 kernel: veth0b020a9: renamed from eth0
+Apr  8 10:01:44 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:44 329386c802c6 kernel: br-584273b19a14: port 1(veth0d1f8dc) entered disabled state
+Apr  8 10:01:44 329386c802c6 kernel: veth0d1f8dc (unregistering): left allmulticast mode
+Apr  8 10:01:44 329386c802c6 kernel: veth0d1f8dc (unregistering): left promiscuous mode
+Apr  8 10:01:44 329386c802c6 kernel: br-584273b19a14: port 1(veth0d1f8dc) entered disabled state
+Apr  8 10:01:44 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:50 329386c802c6 kernel: br-584273b19a14: port 1(vethaccedc5) entered blocking state
+Apr  8 10:01:50 329386c802c6 kernel: br-584273b19a14: port 1(vethaccedc5) entered disabled state
+Apr  8 10:01:50 329386c802c6 kernel: vethaccedc5: entered allmulticast mode
+Apr  8 10:01:50 329386c802c6 kernel: vethaccedc5: entered promiscuous mode
+Apr  8 10:01:50 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:50 329386c802c6 kernel: eth0: renamed from veth9c4fd8f
+Apr  8 10:01:50 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:50 329386c802c6 kernel: br-584273b19a14: port 1(vethaccedc5) entered blocking state
+Apr  8 10:01:50 329386c802c6 kernel: br-584273b19a14: port 1(vethaccedc5) entered forwarding state
+Apr  8 10:01:50 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:56 329386c802c6 kernel: br-584273b19a14: port 1(vethaccedc5) entered disabled state
+Apr  8 10:01:56 329386c802c6 kernel: veth9c4fd8f: renamed from eth0
+Apr  8 10:01:56 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:01:56 329386c802c6 kernel: br-584273b19a14: port 1(vethaccedc5) entered disabled state
+Apr  8 10:01:56 329386c802c6 kernel: vethaccedc5 (unregistering): left allmulticast mode
+Apr  8 10:01:56 329386c802c6 kernel: vethaccedc5 (unregistering): left promiscuous mode
+Apr  8 10:01:56 329386c802c6 kernel: br-584273b19a14: port 1(vethaccedc5) entered disabled state
+Apr  8 10:01:56 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:02:08 329386c802c6 kernel: br-584273b19a14: port 1(veth0a31e99) entered blocking state
+Apr  8 10:02:08 329386c802c6 kernel: br-584273b19a14: port 1(veth0a31e99) entered disabled state
+Apr  8 10:02:08 329386c802c6 kernel: veth0a31e99: entered allmulticast mode
+Apr  8 10:02:08 329386c802c6 kernel: veth0a31e99: entered promiscuous mode
+Apr  8 10:02:08 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:02:09 329386c802c6 kernel: eth0: renamed from veth45560b0
+Apr  8 10:02:09 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:02:09 329386c802c6 kernel: br-584273b19a14: port 1(veth0a31e99) entered blocking state
+Apr  8 10:02:09 329386c802c6 kernel: br-584273b19a14: port 1(veth0a31e99) entered forwarding state
+Apr  8 10:02:09 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:02:14 3ea1fc9081bb rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="7" x-info="https://www.rsyslog.com"] start
+Apr  8 10:09:06 329386c802c6 kernel: br-584273b19a14: port 1(veth0a31e99) entered disabled state
+Apr  8 10:09:06 329386c802c6 kernel: veth45560b0: renamed from eth0
+Apr  8 10:09:06 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:09:06 329386c802c6 kernel: br-584273b19a14: port 1(veth0a31e99) entered disabled state
+Apr  8 10:09:06 329386c802c6 kernel: veth0a31e99 (unregistering): left allmulticast mode
+Apr  8 10:09:06 329386c802c6 kernel: veth0a31e99 (unregistering): left promiscuous mode
+Apr  8 10:09:06 329386c802c6 kernel: br-584273b19a14: port 1(veth0a31e99) entered disabled state
+Apr  8 10:09:06 329386c802c6 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 10:09:06 329386c802c6 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr  8 11:15:38 b8145027f500 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr  8 11:15:39 b8145027f500 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 11:15:43 b8145027f500 kernel: br-4bf70007f475: port 2(veth84d10dc) entered blocking state
+Apr  8 11:15:43 b8145027f500 kernel: br-4bf70007f475: port 2(veth84d10dc) entered disabled state
+Apr  8 11:15:43 b8145027f500 kernel: veth84d10dc: entered allmulticast mode
+Apr  8 11:15:43 b8145027f500 kernel: veth84d10dc: entered promiscuous mode
+Apr  8 11:15:43 b8145027f500 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 11:15:44 b8145027f500 kernel: eth0: renamed from vethfa9b9f8
+Apr  8 11:15:44 b8145027f500 kernel: br-4bf70007f475: port 2(veth84d10dc) entered blocking state
+Apr  8 11:15:44 b8145027f500 kernel: br-4bf70007f475: port 2(veth84d10dc) entered forwarding state
+Apr  8 11:15:44 b8145027f500 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr  8 11:15:49 609d76958136 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start
+Apr  8 11:16:00 609d76958136 root: Hello  message3 - Tue Apr  8 04:46:00 PM IST 2025
+Apr  8 11:46:55 609d76958136 root: Hello  message4 - Tue Apr  8 05:16:55 PM IST 2025
+Apr  8 16:21:21 b8145027f500 kernel: Hangcheck: hangcheck value past margin!
+Apr  8 16:21:21 b8145027f500 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 11 10:41:29 b8145027f500 syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr 11 10:41:29 b8145027f500 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 11 10:41:33 609d76958136 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="7" x-info="https://www.rsyslog.com"] start
+Apr 11 10:43:49 b8145027f500 kernel: br-4bf70007f475: port 2(veth89b8485) entered disabled state
+Apr 11 10:43:49 b8145027f500 kernel: vethbd6e163: renamed from eth0
+Apr 11 10:43:49 b8145027f500 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 11 10:43:49 b8145027f500 kernel: br-4bf70007f475: port 2(veth89b8485) entered disabled state
+Apr 11 10:43:49 b8145027f500 kernel: veth89b8485 (unregistering): left allmulticast mode
+Apr 11 10:43:49 b8145027f500 kernel: veth89b8485 (unregistering): left promiscuous mode
+Apr 11 10:43:49 b8145027f500 kernel: br-4bf70007f475: port 2(veth89b8485) entered disabled state
+Apr 11 10:43:49 b8145027f500 syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 11 10:43:50 b8145027f500 syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr 16 11:56:35 d2ed3663195f syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr 16 11:56:35 d2ed3663195f syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 11:56:40 d2ed3663195f kernel: br-370daa8bdc94: port 2(veth0d10ba4) entered blocking state
+Apr 16 11:56:40 d2ed3663195f kernel: br-370daa8bdc94: port 2(veth0d10ba4) entered disabled state
+Apr 16 11:56:40 d2ed3663195f kernel: veth0d10ba4: entered allmulticast mode
+Apr 16 11:56:40 d2ed3663195f kernel: veth0d10ba4: entered promiscuous mode
+Apr 16 11:56:40 d2ed3663195f syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 11:56:41 d2ed3663195f kernel: eth0: renamed from veth5915c31
+Apr 16 11:56:41 d2ed3663195f kernel: br-370daa8bdc94: port 2(veth0d10ba4) entered blocking state
+Apr 16 11:56:41 d2ed3663195f kernel: br-370daa8bdc94: port 2(veth0d10ba4) entered forwarding state
+Apr 16 11:56:41 d2ed3663195f syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 11:56:46 5f1d3ee4baa1 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start
+Apr 16 12:01:04 d2ed3663195f kernel: br-370daa8bdc94: port 2(veth0d10ba4) entered disabled state
+Apr 16 12:01:04 d2ed3663195f kernel: veth5915c31: renamed from eth0
+Apr 16 12:01:04 d2ed3663195f syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:01:04 d2ed3663195f kernel: br-370daa8bdc94: port 2(veth0d10ba4) entered disabled state
+Apr 16 12:01:04 d2ed3663195f kernel: veth0d10ba4 (unregistering): left allmulticast mode
+Apr 16 12:01:04 d2ed3663195f kernel: veth0d10ba4 (unregistering): left promiscuous mode
+Apr 16 12:01:04 d2ed3663195f kernel: br-370daa8bdc94: port 2(veth0d10ba4) entered disabled state
+Apr 16 12:01:04 d2ed3663195f syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:01:04 d2ed3663195f syslog-ng[1]: syslog-ng shutting down; version='4.8.0'
+Apr 16 12:01:05 519660b27b9b syslog-ng[1]: syslog-ng starting up; version='4.8.0'
+Apr 16 12:01:05 519660b27b9b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:01:10 519660b27b9b kernel: br-705c890bcb5f: port 5(veth8cf26b6) entered blocking state
+Apr 16 12:01:10 519660b27b9b kernel: br-705c890bcb5f: port 5(veth8cf26b6) entered disabled state
+Apr 16 12:01:10 519660b27b9b kernel: veth8cf26b6: entered allmulticast mode
+Apr 16 12:01:10 519660b27b9b kernel: veth8cf26b6: entered promiscuous mode
+Apr 16 12:01:10 519660b27b9b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:01:11 519660b27b9b kernel: eth0: renamed from veth7b5df00
+Apr 16 12:01:11 519660b27b9b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:01:11 519660b27b9b kernel: br-705c890bcb5f: port 5(veth8cf26b6) entered blocking state
+Apr 16 12:01:11 519660b27b9b kernel: br-705c890bcb5f: port 5(veth8cf26b6) entered forwarding state
+Apr 16 12:01:11 519660b27b9b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:01:16 30dcbafabb60 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start
+Apr 16 12:09:56 519660b27b9b kernel: br-705c890bcb5f: port 2(vethc1088b6) entered disabled state
+Apr 16 12:09:56 519660b27b9b kernel: veth8d58a5c: renamed from eth0
+Apr 16 12:09:56 519660b27b9b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:09:56 519660b27b9b kernel: br-705c890bcb5f: port 2(vethc1088b6) entered disabled state
+Apr 16 12:09:56 519660b27b9b kernel: vethc1088b6 (unregistering): left allmulticast mode
+Apr 16 12:09:56 519660b27b9b kernel: vethc1088b6 (unregistering): left promiscuous mode
+Apr 16 12:09:56 519660b27b9b kernel: br-705c890bcb5f: port 2(vethc1088b6) entered disabled state
+Apr 16 12:09:56 519660b27b9b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:10:06 519660b27b9b kernel: br-705c890bcb5f: port 3(veth59bf5e6) entered disabled state
+Apr 16 12:10:06 519660b27b9b kernel: vethe94e1fa: renamed from eth0
+Apr 16 12:10:06 519660b27b9b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:10:06 519660b27b9b kernel: br-705c890bcb5f: port 3(veth59bf5e6) entered disabled state
+Apr 16 12:10:06 519660b27b9b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:10:06 519660b27b9b kernel: veth59bf5e6 (unregistering): left allmulticast mode
+Apr 16 12:10:06 519660b27b9b kernel: veth59bf5e6 (unregistering): left promiscuous mode
+Apr 16 12:10:06 519660b27b9b kernel: br-705c890bcb5f: port 3(veth59bf5e6) entered disabled state
+Apr 16 12:10:06 519660b27b9b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:10:16 519660b27b9b kernel: br-705c890bcb5f: port 1(veth829a7c5) entered disabled state
+Apr 16 12:10:16 519660b27b9b kernel: veth4e74658: renamed from eth0
+Apr 16 12:10:16 519660b27b9b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:10:16 519660b27b9b kernel: br-705c890bcb5f: port 1(veth829a7c5) entered disabled state
+Apr 16 12:10:16 519660b27b9b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:10:16 519660b27b9b kernel: veth829a7c5 (unregistering): left allmulticast mode
+Apr 16 12:10:16 519660b27b9b kernel: veth829a7c5 (unregistering): left promiscuous mode
+Apr 16 12:10:16 519660b27b9b kernel: br-705c890bcb5f: port 1(veth829a7c5) entered disabled state
+Apr 16 12:10:16 519660b27b9b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:15:32 519660b27b9b kernel: veth7b5df00: renamed from eth0
+Apr 16 12:15:32 519660b27b9b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:15:32 519660b27b9b kernel: br-705c890bcb5f: port 5(veth8cf26b6) entered disabled state
+Apr 16 12:15:32 519660b27b9b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:15:32 519660b27b9b kernel: br-705c890bcb5f: port 5(veth8cf26b6) entered disabled state
+Apr 16 12:15:32 519660b27b9b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:15:32 519660b27b9b kernel: veth8cf26b6 (unregistering): left allmulticast mode
+Apr 16 12:15:32 519660b27b9b kernel: veth8cf26b6 (unregistering): left promiscuous mode
+Apr 16 12:15:32 519660b27b9b kernel: br-705c890bcb5f: port 5(veth8cf26b6) entered disabled state
+Apr 16 12:15:32 519660b27b9b syslog-ng[1]: Error invoking seek on file; filename='/dev/kmsg', error='Invalid argument (22)'
+Apr 16 12:15:32 519660b27b9b syslog-ng[1]: syslog-ng shutting down; version='4.8.0'

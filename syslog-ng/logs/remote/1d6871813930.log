@@ -1,0 +1,2 @@
+Apr  7 20:56:53 1d6871813930 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="8" x-info="https://www.rsyslog.com"] start
+Apr  7 20:57:53 1d6871813930 root: Hello from client

@@ -1,0 +1,138 @@
+version: '3.8'
+
+services:
+  opensearch:
+    image: opensearchproject/opensearch:2.12.0
+    container_name: opensearch
+    environment:
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      - "OPENSEARCH_JAVA_OPTS=-Xms1g -Xmx1g"
+      - OPENSEARCH_INITIAL_ADMIN_PASSWORD=MyStrongPassword123!
+      - plugins.security.disabled=false
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - opensearch-data:/usr/share/opensearch/data
+    ports:
+      - "9200:9200"
+      - "9600:9600"
+    networks:
+      - logging-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "-k", "-u", "admin:MyStrongPassword123!", "https://localhost:9200"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  opensearch-dashboards:
+    image: opensearchproject/opensearch-dashboards:2.12.0
+    container_name: opensearch-dashboards
+    ports:
+      - "5601:5601"
+    environment:
+      - plugins.security.disabled=false
+      - 'OPENSEARCH_HOSTS=["https://opensearch:9200"]'
+      - 'OPENSEARCH_USERNAME=admin'
+      - 'OPENSEARCH_PASSWORD=MyStrongPassword123!'
+      - 'opensearch_security.cookie.secure=false'
+      - 'opensearch_security.ssl.certificate_verification=false'
+    networks:
+      - logging-network
+    depends_on:
+      opensearch:
+        condition: service_healthy
+
+  logstash:
+    build:
+      context: ./logstash
+      dockerfile: Dockerfile
+    container_name: logstash
+    volumes:
+      - ./logstash/pipeline:/usr/share/logstash/pipeline
+      - ./logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml
+      - ./logstash/templates:/usr/share/logstash/templates
+      - ./logstash/data:/usr/share/logstash/data
+    ports:
+      - "5044:5044"
+      - "5000:5000"
+    environment:
+      - LS_JAVA_OPTS=-Xmx512m -Xms512m
+    networks:
+      - logging-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9600"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+    depends_on:
+      opensearch:
+        condition: service_healthy
+
+  syslog-ng:
+    image: balabit/syslog-ng:latest
+    container_name: syslog-ng
+    restart: unless-stopped
+    user: "0:0"
+    ports:
+      - "514:514/tcp"
+      - "514:514/udp"
+    volumes:
+      - ./docker-logs:/var/lib/docker/containers:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./syslog-ng/config:/etc/syslog-ng
+      - ./logs:/var/log
+      - ./shared-logs:/var/log/syslog-ng-for-filebeat
+    privileged: true
+    cap_add:
+      - SYS_ADMIN
+      - DAC_READ_SEARCH
+      - SYS_PTRACE
+      - SETPCAP
+      - SYSLOG
+    networks:
+      - logging-network
+    healthcheck:
+      test: ["CMD", "pidof", "syslog-ng"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  filebeat:
+    container_name: filebeat
+    image: docker.elastic.co/beats/filebeat:8.12.0
+    user: "root"
+    volumes:
+      - ./shared-logs:/var/log/syslog-ng-for-filebeat:ro
+      - ./filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
+      - filebeat-data:/usr/share/filebeat/data
+    networks:
+      - logging-network
+    depends_on:
+      logstash:
+        condition: service_healthy
+      syslog-ng:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "filebeat", "test", "output", "--strict.perms=false"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    environment:
+      - STRICT_PERMS=false
+      
+volumes:
+  opensearch-data:
+  filebeat-data:      
+
+networks:
+  logging-network:
+    driver: bridge
+    name: logging-network
+    attachable: true
+    ipam:
+      config:
+        - subnet: 172.20.0.0/24

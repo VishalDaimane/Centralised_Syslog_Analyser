@@ -1,0 +1,16 @@
+# This Dockerfile is for a syslog-ng client container that forwards logs to a syslog-ng server.
+FROM ubuntu:latest
+
+RUN apt-get update && \
+    apt-get install -y rsyslog iputils-ping net-tools && \
+    rm -rf /var/lib/apt/lists/*
+
+# Create minimal rsyslog config with ONLY UDP forwarding
+RUN echo 'module(load="imuxsock")' > /etc/rsyslog.conf && \
+    echo 'module(load="imudp")' >> /etc/rsyslog.conf && \
+    echo 'input(type="imudp" port="514")' >> /etc/rsyslog.conf && \
+    echo '*.* @syslog-ng:514' >> /etc/rsyslog.conf && \
+    echo '& stop' >> /etc/rsyslog.conf && \
+    echo '$ActionSendResendLastMsgOnReconnect on' >> /etc/rsyslog.conf
+
+CMD ["sh", "-c", "sleep 5 && /usr/sbin/rsyslogd -n"]
